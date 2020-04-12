@@ -492,7 +492,12 @@ function checkCoreURL {
 			;;
 	esac
 	RELEASES_HTML=""
-	RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
+	RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}" 2> /dev/null)
+	if [[ "${RELEASES_HTML}" == "" ]] ; then
+		RELEASES_URL=$(sed "s%Miguel-T80c%MiSTer-devel%g" <<< "${RELEASES_URL}")
+		DOMAIN_URL="MiSTer-devel"
+		RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
+	fi
 	RELEASE_URLS=$(echo ${RELEASES_HTML} | grep -oE "/${DOMAIN_URL}/[a-zA-Z0-9./_-]*_[0-9]{8}[a-zA-Z]?(\.rbf|\.rar|\.zip)?")
 
 	CORE_HAS_MRA="false"
