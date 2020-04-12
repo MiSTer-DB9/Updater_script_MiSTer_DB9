@@ -498,11 +498,11 @@ function checkCoreURL {
 		DOMAIN_URL="MiSTer-devel"
 		RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
 	fi
-	RELEASE_URLS=$(echo ${RELEASES_HTML} | grep -oE "/${DOMAIN_URL}/[a-zA-Z0-9./_-]*_[0-9]{8}[a-zA-Z]?(\.rbf|\.rar|\.zip)?")
+	RELEASE_URLS=$(echo ${RELEASES_HTML} | grep -oE '/'${DOMAIN_URL}'/[a-zA-Z0-9./_-]*_[0-9]{8}[a-zA-Z]?(\.rbf|\.rar|\.zip)?')
 
 	CORE_HAS_MRA="false"
-	#if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && { echo "${RELEASES_HTML}" | grep -qE "/${DOMAIN_URL}//[a-zA-Z0-9./_%&#;!()-]*\.mra"; }
-	if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && [[ "${RELEASES_HTML}" =~ "/${DOMAIN_URL}//[a-zA-Z0-9./_%\&#\;!()-]*\.mra" ]]
+	#if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && { echo "${RELEASES_HTML}" | grep -qE '/'${DOMAIN_URL}'/[a-zA-Z0-9./_%&#;!()-]*\.mra'; }
+	if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && [[ "${RELEASES_HTML}" =~ /${DOMAIN_URL}/[a-zA-Z0-9./_%\&#\;!()-]*\.mra ]]
 	then
 		CORE_HAS_MRA="true"
 	fi
