@@ -15,8 +15,10 @@
 
 # Copyright 2018-2020 Alessandro "Locutus73" Miele
 
+# DB9 Fork from 'theypsilon' 2020
+
 # You can download the latest version of this script from:
-# https://github.com/MiSTer-devel/Updater_script_MiSTer
+# https://github.com/theypsilon/Updater_script_MiSTer_DB9
 
 
 
@@ -210,7 +212,7 @@ TO_BE_DELETED_EXTENSION="to_be_deleted"
 #========= CODE STARTS HERE =========
 
 UPDATER_VERSION="4.0.4"
-echo "MiSTer Updater version ${UPDATER_VERSION}"
+echo "MiSTer DB9 Updater version ${UPDATER_VERSION}"
 echo ""
 
 ORIGINAL_SCRIPT_PATH="$0"
@@ -293,11 +295,11 @@ case $? in
 esac
 if [ "$SSL_SECURITY_OPTION" == "" ]
 then
-	if [ "$(grep -v "^#" "${ORIGINAL_SCRIPT_PATH}")" == "curl $CURL_RETRY -ksLf https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh?raw=true | bash -" ]
+	if [ "$(grep -v "^#" "${ORIGINAL_SCRIPT_PATH}")" == "curl $CURL_RETRY -ksLf https://github.com/theypsilon/Updater_script_MiSTer_DB9/blob/master/mister_updater.sh?raw=true | bash -" ]
 	then
 		echo "Downloading $(sed 's/.*\///' <<< "${ORIGINAL_SCRIPT_PATH}")"
 		echo ""
-		curl $CURL_RETRY $SSL_SECURITY_OPTION -L "https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/update.sh?raw=true" -o "$ORIGINAL_SCRIPT_PATH"
+		curl $CURL_RETRY $SSL_SECURITY_OPTION -L "https://github.com/theypsilon/Updater_script_MiSTer_DB9/blob/master/update.sh?raw=true" -o "$ORIGINAL_SCRIPT_PATH"
 	fi
 fi
 
@@ -309,6 +311,14 @@ if [[ -n "${NTP_SERVER}" ]] ; then
 	# unprivileged port for outgoing packets to workaround firewalls
 	ntpdate -b -s -u "${NTP_SERVER}"
     echo
+fi
+
+FIRST_TIME_DB9="false"
+if [ ! -f "${WORK_PATH}/db9" ] ; then
+	rm -rf ${WORK_PATH} || true
+	mkdir -p ${WORK_PATH}
+	touch "${WORK_PATH}/db9"
+	FIRST_TIME_DB9="true"
 fi
 
 UPDATE_START_DATETIME_LOCAL=$(date)
@@ -380,6 +390,7 @@ CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk 
 MENU_URL=$(echo "${CORE_URLS}" | grep -io 'https://github.com/[a-zA-Z0-9./_-]*Menu_MiSTer')
 CORE_URLS=$(echo "${CORE_URLS}" |  sed 's/https:\/\/github.com\/[a-zA-Z0-9.\/_-]*Menu_MiSTer//')
 CORE_URLS=${SD_INSTALLER_URL}$'\n'${MISTER_URL}$'\n'${MENU_URL}$'\n'${CORE_URLS}$'\n'"user-content-arcade-cores"$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki/Arcade-Cores-List"| awk '/wiki-content/,/wiki-rightbar/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)' | awk '!a[$0]++')
+CORE_URLS=$(sed "s%MiSTer-devel%Miguel-T80c%g" <<< "$CORE_URLS")
 CORE_CATEGORY="-"
 SD_INSTALLER_PATH=""
 REBOOT_NEEDED="false"
@@ -398,6 +409,7 @@ then
 fi
 CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER=""
 LAST_SUCCESSFUL_RUN_PATH="${WORK_PATH}/$(basename ${ORIGINAL_SCRIPT_PATH%.*}.last_successful_run)"
+
 if [ -f ${LAST_SUCCESSFUL_RUN_PATH} ]
 then
 	LAST_SUCCESSFUL_RUN_DATETIME_UTC=$(cat "${LAST_SUCCESSFUL_RUN_PATH}" | sed '1q;d')
@@ -465,6 +477,11 @@ then
 fi
 
 function checkCoreURL {
+
+
+	[[ ${CORE_URL} =~ ^([a-zA-Z]+://)?github.com(:[0-9]+)?/([a-zA-Z0-9_-]*)/.*$ ]] || true
+	DOMAIN_URL=${BASH_REMATCH[3]}
+
 	echo "Checking $(sed 's/.*\/// ; s/_MiSTer//' <<< "${CORE_URL}")"
 	[ "${SSH_CLIENT}" != "" ] && echo "URL: $CORE_URL"
 	# if echo "$CORE_URL" | grep -qE "SD-Installer"
@@ -485,12 +502,17 @@ function checkCoreURL {
 			;;
 	esac
 	RELEASES_HTML=""
-	RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
-	RELEASE_URLS=$(echo ${RELEASES_HTML} | grep -oE '/MiSTer-devel/[a-zA-Z0-9./_-]*_[0-9]{8}[a-zA-Z]?(\.rbf|\.rar|\.zip)?')
-	
+	RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}" 2> /dev/null)
+	if [[ "${RELEASES_HTML}" == "" ]] ; then
+		RELEASES_URL=$(sed "s%Miguel-T80c%MiSTer-devel%g" <<< "${RELEASES_URL}")
+		DOMAIN_URL="MiSTer-devel"
+		RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
+	fi
+	RELEASE_URLS=$(echo ${RELEASES_HTML} | grep -oE '/'${DOMAIN_URL}'/[a-zA-Z0-9./_-]*_[0-9]{8}[a-zA-Z]?(\.rbf|\.rar|\.zip)?')
+
 	CORE_HAS_MRA="false"
-	#if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && { echo "${RELEASES_HTML}" | grep -qE '/MiSTer-devel/[a-zA-Z0-9./_%&#;!()-]*\.mra'; }
-	if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && [[ "${RELEASES_HTML}" =~ /MiSTer-devel/[a-zA-Z0-9./_%\&#\;!()-]*\.mra ]]
+	#if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && { echo "${RELEASES_HTML}" | grep -qE '/'${DOMAIN_URL}'/[a-zA-Z0-9./_%&#;!()-]*\.mra'; }
+	if  [ "${CORE_CATEGORY}" == "arcade-cores" ] && [ "${MAME_ARCADE_ROMS}" == "true" ] && [[ "${RELEASES_HTML}" =~ /${DOMAIN_URL}/[a-zA-Z0-9./_%\&#\;!()-]*\.mra ]]
 	then
 		CORE_HAS_MRA="true"
 	fi
@@ -651,7 +673,7 @@ function checkCoreURL {
 		fi
 	fi
 	
-	if [[ "$MAX_VERSION" > "$MAX_LOCAL_VERSION" ]]
+	if [[ "$MAX_VERSION" > "$MAX_LOCAL_VERSION" ]] || [[ "${FIRST_TIME_DB9}" == "true" ]]
 	then
 		#if [ "$DOWNLOAD_NEW_CORES" != "false" ] || [ "$MAX_LOCAL_VERSION" != "" ] || [ "$BASE_FILE_NAME" == "MiSTer" ] || [ "$BASE_FILE_NAME" == "menu" ] || { echo "$CORE_URL" | grep -qE "SD-Installer|Filters_MiSTer"; }
 		if [ "$DOWNLOAD_NEW_CORES" != "false" ] || [ "$MAX_LOCAL_VERSION" != "" ] || [ "$BASE_FILE_NAME" == "MiSTer" ] || [ "$BASE_FILE_NAME" == "menu" ] || [[ "${CORE_URL}" =~ SD-Installer|Filters_MiSTer|MRA-Alternatives_MiSTer ]]
@@ -948,7 +970,6 @@ for CORE_URL in $CORE_URLS; do
 	fi
 done
 wait
-
 if [ "${MAME_ALT_ROMS}" == "true" ]
 then
 	CORE_CATEGORY="-"
@@ -1067,7 +1088,7 @@ fi
 
 EXIT_CODE=0
 LOG_PATH="${WORK_PATH}/$(basename ${ORIGINAL_SCRIPT_PATH%.*}.log)"
-echo "MiSTer Updater version ${UPDATER_VERSION}" > "${LOG_PATH}"
+echo "MiSTer DB9 Updater version ${UPDATER_VERSION}" > "${LOG_PATH}"
 echo "started at ${UPDATE_START_DATETIME_LOCAL}" >> "${LOG_PATH}"
 echo "" >> "${LOG_PATH}"
 echo "Successfully updated cores:" >> "${LOG_PATH}"
