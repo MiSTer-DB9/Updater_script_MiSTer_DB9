@@ -24,23 +24,23 @@
 # Version 4.0.3 - 2020-02-24 - Changed MAME_ARCADE_ROMS and MAME_ALT_ROMS default value to "true"; added _Other core directory and removed Arduboy from SD root; renamed CORE_CATEGORY_PATHS["cores"] to CORE_CATEGORY_PATHS["computer-cores"] for better readibility, "cores" still works for both CORE_CATEGORY_PATHS and filters; code clean up by frederic-mahe (thank you very much).
 # Version 4.0.2 - 2020-02-09 - Improved script output; the updater performs a full resync when a newer version has been released; the updater informs the user that MAME_ARCADE_ROMS and MAME_ALT_ROMS default values are going to switch to "true" in the next days; corrected a bug in additional repositories files with a comma "," in the name; added GBA cheats; the updater checks the actual installed MiSTer Linux and not only the last downloaded SD-Installer before updating Linux; the updater backups the whole _Arcade dir before switching to the new MRA structure when MAME_ARCADE_ROMS="true"; speed optimisations.
 # Version 4.0.1 - 2020-01-18 - Improved script output.
-# Version 4.0 - 2020-01-13 - Added report/log of updated cores and additional files at the end of the script; added exit code 100 when there's an error downloading something; now PARALLEL_UPDATE="true" is the default value; added REPOSITORIES_NEGATIVE_FILTER parameter, like REPOSITORIES_FILTER but repository names and core categories must not match the filter, it is processed after REPOSITORIES_FILTER; now the updater only checks repositories which have been actually updated since the last successful update, edit your ini or delete /media/fat/Scripts/.mister_updater/*.last_successful_run files to reset this mechanism; changed MidiLink additional repository to the official MiSTer-devel one.
+# Version 4.0 - 2020-01-13 - Added report/log of updated cores and additional files at the end of the script; added exit code 100 when there's an error downloading something; now PARALLEL_UPDATE="true" is the default value; added REPOSITORIES_NEGATIVE_FILTER parameter, like REPOSITORIES_FILTER but repository names and core categories must not match the filter, it is processed after REPOSITORIES_FILTER; now the updater only checks repositories which have been actually updated since the last successful update, edit your ini or delete ${BASE_PATH}/Scripts/.mister_updater/*.last_successful_run files to reset this mechanism; changed MidiLink additional repository to the official MiSTer-devel one.
 # Version 3.6.3 - 2020-01-09 - Speed optimisations.
 # Version 3.6.2 - 2020-01-07 - Changed MAME_ARCADE_ROMS and MAME_ALT_ROMS default value to ""; "true" for using the new MRA directory/file structure; "false" for restoring the old directory/file structure; "" for doing nothing.
 # Version 3.6.1 - 2020-01-07 - Fixed a bug which corrupted the download of MRA files with a single quote char ' in the name.
 # Version 3.6 - 2020-01-06 - Added MAME_ARCADE_ROMS option; when "true" the updater downloads/updates MRA files (MAME Arcade ROMs) for Arcade cores; when using MAME_ARCADE_ROMS="true", please do not add "/cores" to CORE_CATEGORY_PATHS["arcade-cores"]; added MAME_ALT_ROMS option; when "true" the updater downloads/updates alternative MRA files (alternative MAME Arcade ROMs) for Arcade cores.
 # Version 3.5.3 - 2019-12-29 - Optimisation in GAMES_SUBDIR detection.
-# Version 3.5.2 - 2019-12-22 - Speed optimisations; optimisations for the new Wiky layout; when GAMES_SUBDIR="" now the updater checks if /media/fat/games subdir exists and actually contains any file.
+# Version 3.5.2 - 2019-12-22 - Speed optimisations; optimisations for the new Wiky layout; when GAMES_SUBDIR="" now the updater checks if ${BASE_PATH}/games subdir exists and actually contains any file.
 # Version 3.5.1 - 2019-12-21 - Code clean up by frederic-mahe (thank you very much).
 # Version 3.5 - 2019-12-04 - Adapt to Wiki sideboard changes for core listings and separate arcade core listing by rarcos, thank you very much.
 # Version 3.4.1 - 2019-12-03 - Added a prompt for PARALLEL_UPDATE.
 # Version 3.4 - 2019-11-30 - Added support for the new filters and gamma tables repository structure; FILTERS_URL="" for disabling filters updating; if you use a custom ADDITIONAL_REPOSITORIES, please remove any Filters entry.
-# Version 3.3.5 - 2019-11-10 - Added GAMES_SUBDIR option, specifies the Games/Programs subdirectory where core specific directories will be placed; GAMES_SUBDIR="" for letting the script choose between /media/fat and /media/fat/games when it exists, otherwise the subdir you prefer (i.e. GAMES_SUBDIR="/Programs").
+# Version 3.3.5 - 2019-11-10 - Added GAMES_SUBDIR option, specifies the Games/Programs subdirectory where core specific directories will be placed; GAMES_SUBDIR="" for letting the script choose between ${BASE_PATH} and ${BASE_PATH}/games when it exists, otherwise the subdir you prefer (i.e. GAMES_SUBDIR="/Programs").
 # Version 3.3.4 - 2019-10-20 - Fixed an incompatibility with gamehacking.org anti DDOS system.
 # Version 3.3.3 - 2019-09-28 - Corrected a bug in MD5 based check in addition to file timestamp for main menu and main MiSTer executable.
 # Version 3.3.2 - 2019-09-28 - Implemented MD5 based check in addition to file timestamp for main menu and main MiSTer executable; added https://github.com/MiSTer-devel/Scripts_MiSTer/tree/master/other_authors to ADDITIONAL_REPOSITORIES.
 # Version 3.3.1 - 2019-09-07 - Improved core directories creation; added NeoGeo xml download/update to ADDITIONAL_REPOSITORIES.
-# Version 3.3 - 2019-08-21 - Implemented CREATE_CORES_DIRECTORIES; when "true" (default value), the updater will create the core directory (i.e. /media/fat/Amiga for Minimig core, /media/fat/SNES for SNES core) the first time the core is downloaded.
+# Version 3.3 - 2019-08-21 - Implemented CREATE_CORES_DIRECTORIES; when "true" (default value), the updater will create the core directory (i.e. ${BASE_PATH}/Amiga for Minimig core, ${BASE_PATH}/SNES for SNES core) the first time the core is downloaded.
 # Version 3.2 - 2019-08-21 - Implemented GOOD_CORES_URL for having a list of curated "good" cores.
 # Version 3.1.1 - 2019-07-26 - The script is compatible with a possible renaming of "Cores" to "Computer Cores" in MiSTer Wiki Sidebar.
 # Version 3.1 - 2019-06-16 - Checking cURL download success and restoring old files when needed.
@@ -49,26 +49,26 @@
 # Version 3.0 - 2019-05-18 - Added EXPERIMENTAL parallel processing for the update process when PARALLEL_UPDATE="true" (default value is "false"): use it at your own risk!
 # Version 2.3 - 2019-05-13 - Added cheats download/update from gamehacking.org when UPDATE_CHEATS="true" ("once" for just downloading them once); added UPDATE_LINUX option instead of uncommenting SD_INSTALLER_PATH (this method still works for ini compatibility).
 # Version 2.2.1 - 2019-05-06 - Removed https://github.com/MiSTer-devel/CIFS_MiSTer from ADDITIONAL_REPOSITORIES, now CIFS scripts are hosted in https://github.com/MiSTer-devel/Scripts_MiSTer.
-# Version 2.2 - 2019-05-01 - CURL RETRY OPTIONS by wesclemens, now the script has a timeout and retry logic to prevent spotty connections causing the update to lockup, thank you very much; review time sync test by frederic-mahe, thank you very much; now the scripts default path is /media/fat/Scripts, moving #Scripts directory there when needed.
+# Version 2.2 - 2019-05-01 - CURL RETRY OPTIONS by wesclemens, now the script has a timeout and retry logic to prevent spotty connections causing the update to lockup, thank you very much; review time sync test by frederic-mahe, thank you very much; now the scripts default path is ${BASE_PATH}/Scripts, moving #Scripts directory there when needed.
 # Version 2.1.5 - 2019-04-03 - Improved date-time parsing for additional repositories.
 # Version 2.1.4 - 2019-04-01 - Implemented a safer Linux system updating strategy: linux.img is moved as the very last step in the process.
 # Version 2.1.3 - 2019-03-26 - Cosmetic change in ADDITIONAL_REPOSITORIES declaration; added commented (not active) fonts additional repository for reference.
 # Version 2.1.2 - 2019-03-03 - Corrected a bug in date-time parsing for additional repositories.
 # Version 2.1.1 - 2019-03-03 - Improved date-time parsing for additional repositories; added MiSTer_MidiLink installation scripts to ADDITIONAL_REPOSITORIES.
-# Version 2.1 - 2019-03-02 - Linux updating now supports subdirectories under /media/fat/linux.
+# Version 2.1 - 2019-03-02 - Linux updating now supports subdirectories under ${BASE_PATH}/linux.
 # Version 2.0.2 - 2019-02-23 - ALLOW_INSECURE_SSH renamed to ALLOW_INSECURE_SSL.
 # Version 2.0.1 - 2019-02-03 - Cosmetic changes.
 # Version 2.0 - 2019-02-02 - Added ALLOW_INSECURE_SSH option: "true" will check if SSL certificate verification (see https://curl.haxx.se/docs/sslcerts.html ) is working (CA certificates installed) and when it's working it will use this feature for safe curl HTTPS downloads, otherwise it will use --insecure option for disabling SSL certificate verification. If CA certificates aren't installed it's advised to install them (i.e. using security_fixes.sh). "false" will never use --insecure option and if CA certificates aren't installed any download will fail. The script will download and update the simple one line update.sh with a newer one (same ALLOW_INSECURE_SSH option) when needed.
 # Version 1.8.2 - 2019-01-21 - Changed ARCADE_HACKS_PATH to ARCADE_ALT_PATHS: not it supports a pipe "|" separated list of directories containing alternative arcade cores.
 # Version 1.8.1 - 2019-01-16 - Changed ADDITIONAL_REPOSITORIES in order to download inc files from scripts repositories; improved ADDITIONAL_REPOSITORIES extensions handling.
-# Version 1.8 - 2019-01-15 - Using /media/fat/#Scripts/.mister_updater as work directory, you can safely delete MiSTer_yyyymmdd, menu_yyyymmdd.rbf and release_yyyymmdd.rar from SD root now; using empty files as semaphores and corrected a minor bug about their target directories; improved user option comments.
+# Version 1.8 - 2019-01-15 - Using ${BASE_PATH}/#Scripts/.mister_updater as work directory, you can safely delete MiSTer_yyyymmdd, menu_yyyymmdd.rbf and release_yyyymmdd.rar from SD root now; using empty files as semaphores and corrected a minor bug about their target directories; improved user option comments.
 # Version 1.7.2 - 2019-01-09 - Cosmetic changes.
-# Version 1.7.1 - 2019-01-07 - unrar-nonfree is always downloaded in /media/fat/linux.
+# Version 1.7.1 - 2019-01-07 - unrar-nonfree is always downloaded in ${BASE_PATH}/linux.
 # Version 1.7 - 2019-01-07 - Added support for an ini configuration file with the same name as the original script, i.e. mister_updater.ini or update.ini; added CIFS_MiSTer and Scripts_MiSTer additional repositories; improved additional repositories handling; added optional advanced NTP_SERVER option for syncing system date and time with a NTP server.
 # Version 1.6.2 - 2019-01-02 - Solved a bug that prevented updating MiSTer main executable, menu.rbf and Linux system when DOWNLOAD_NEW_CORES="false" and timestamped files were missing; improved REPOSITORIES_FILTER comments; code clean up by frederic-mahe (thank you very much).
-# Version 1.6.1 - 2018-12-30 - Improved date-time parsing for additional repositories; main MiSTer executable, menu.rbf and Linux system are always updated in /media/fat even if BASE_PATH is configured for another directory.
+# Version 1.6.1 - 2018-12-30 - Improved date-time parsing for additional repositories; main MiSTer executable, menu.rbf and Linux system are always updated in ${BASE_PATH} even if BASE_PATH is configured for another directory.
 # Version 1.6 - 2018-12-29 - Added REPOSITORIES_FILTER option (i.e. "C64 Minimig NES SNES"); additional repositories files (Filters and GameBoy palettes) online dates and times are checked against local files before downloading; added Internet connection test at the beginning of the script; improved ARCADE_HACKS_PATH file purging; solved a bug with DOWNLOAD_NEW_CORES and paths with spaces; added comments to user options.
-# Version 1.5 - 2018-12-27 - Reorganized user options; improved DOWNLOAD_NEW_CORES option handling for paths with spaces; added ARCADE_HACKS_PATH parameter for defining a directory containing arcade hacks to be updated, each arcade hack is a subdirectory with the name starting like the rbf core with an underscore prefix (i.e. /media/fat/_Arcade/_Arcade Hacks/_BurgerTime - hack/).
+# Version 1.5 - 2018-12-27 - Reorganized user options; improved DOWNLOAD_NEW_CORES option handling for paths with spaces; added ARCADE_HACKS_PATH parameter for defining a directory containing arcade hacks to be updated, each arcade hack is a subdirectory with the name starting like the rbf core with an underscore prefix (i.e. ${BASE_PATH}/_Arcade/_Arcade Hacks/_BurgerTime - hack/).
 # Version 1.4 - 2018-12-26 - Added DOWNLOAD_NEW_CORES option: true for downloading new cores in the standard directories as previous script releases, false for not downloading new cores at all, a string value, i.e. "NewCores", for downloading new cores in the "NewCores" subdirectory.
 # Version 1.3.6 - 2018-12-24 - Improved local file name parsing so that the script deletes and updates NES_20181113.rbf, but not NES_20181113_NN.rbf.
 # Version 1.3.5 - 2018-12-22 - Solved Atari 800XL/5200 and SharpMZ issues; replaced "reboot" with "reboot now"; shortened some of the script outputs.
@@ -84,8 +84,12 @@
 
 
 #=========   USER OPTIONS   =========
-#Base directory for all script’s tasks, "/media/fat" for SD root, "/media/usb0" for USB drive root.
-BASE_PATH="/media/fat"
+#Base directory for all script’s tasks, "${BASE_PATH}" for SD root, "/media/usb0" for USB drive root.
+BASE_PATH="$(pwd)/test_updater"
+echo "BASE_PATH: ${BASE_PATH}"
+rm -rf "${BASE_PATH}" || true
+mkdir -p "${BASE_PATH}"
+rm test_error.log || true
 
 #Directories where all core categories will be downloaded.
 declare -A CORE_CATEGORY_PATHS
@@ -97,7 +101,7 @@ CORE_CATEGORY_PATHS["service-cores"]="$BASE_PATH/_Utility"
 
 #Optional pipe "|" separated list of directories containing alternative arcade cores to be updated,
 #each alternative (hack/revision/whatever) arcade is a subdirectory with the name starting like the rbf core with an underscore prefix,
-#i.e. "/media/fat/_Arcade/_Arcade Hacks/_BurgerTime - hack/".
+#i.e. "${BASE_PATH}/_Arcade/_Arcade Hacks/_BurgerTime - hack/".
 ARCADE_ALT_PATHS="${CORE_CATEGORY_PATHS["arcade-cores"]}/_Arcade Hacks|${CORE_CATEGORY_PATHS["arcade-cores"]}/_Arcade Revisions"
 
 #Specifies if old files (cores, main MiSTer executable, menu, SD-Installer, etc.) will be deleted as part of an update.
@@ -142,7 +146,7 @@ PARALLEL_UPDATE="true"
 #The text file can be something simple as "Genesis_20190712.rbf SNES_20190703.rbf".
 GOOD_CORES_URL=""
 
-#Specifies if the core directory (i.e. /media/fat/Amiga for Minimig core, /media/fat/SNES for SNES core) has to be created
+#Specifies if the core directory (i.e. ${BASE_PATH}/Amiga for Minimig core, ${BASE_PATH}/SNES for SNES core) has to be created
 #the first time the core is downloaded.
 CREATE_CORES_DIRECTORIES="true"
 
@@ -160,13 +164,14 @@ MAME_ARCADE_ROMS="true"
 MAME_ALT_ROMS="true"
 
 #Specifies the Games/Programs subdirectory where core specific directories will be placed.
-#GAMES_SUBDIR="" for letting the script choose between /media/fat and /media/fat/games when it exists,
+#GAMES_SUBDIR="" for letting the script choose between ${BASE_PATH} and ${BASE_PATH}/games when it exists,
 #otherwise the subdir you prefer (i.e. GAMES_SUBDIR="/Programs").
 GAMES_SUBDIR=""
 if [ "${GAMES_SUBDIR}" == "" ] && [ "$(find ${BASE_PATH}/games -type f -print -quit 2> /dev/null)" != "" ]
 then
 	GAMES_SUBDIR="/games"
 fi
+
 
 #========= ADVANCED OPTIONS =========
 #ALLOW_INSECURE_SSL="true" will check if SSL certificate verification (see https://curl.haxx.se/docs/sslcerts.html )
@@ -176,11 +181,11 @@ fi
 #ALLOW_INSECURE_SSL="false" will never use --insecure option and if CA certificates aren't installed
 #any download will fail.
 ALLOW_INSECURE_SSL="true"
-CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5"
+CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 50"
 MISTER_URL="https://github.com/MiSTer-devel/Main_MiSTer"
 SCRIPTS_PATH="Scripts"
 OLD_SCRIPTS_PATH="#Scripts"
-WORK_PATH="/media/fat/$SCRIPTS_PATH/.mister_updater"
+WORK_PATH="${BASE_PATH}/$SCRIPTS_PATH/.mister_updater"
 #Comment (or uncomment) next lines if you don't want (or want) to update/download from additional repositories (i.e. Scaler filters and Gameboy palettes) each time
 ADDITIONAL_REPOSITORIES=(
 #	"https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Filters|txt|$BASE_PATH/Filters"
@@ -301,6 +306,19 @@ then
 	fi
 fi
 
+fetch_url() {
+	local URL="$1"
+	for ((i = 0 ; i <= 10 ; i++)); do
+		if curl --fail ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "$URL" 2> /dev/null ; then
+			>&2 echo "OK: Fetch $URL"
+			return
+		fi
+		sleep 5
+	done
+	>&2 echo "ERROR: Fetch to $URL failed."
+	echo "ERROR: Fetch to $URL failed." >> test_error.log
+}
+
 ## sync with a public time server
 if [[ -n "${NTP_SERVER}" ]] ; then
 	echo "Syncing date and time with"
@@ -375,13 +393,13 @@ ERROR_ADDITIONAL_REPOSITORIES_FILE=$(mktemp)
 
 echo "Downloading MiSTer Wiki structure"
 echo ""
-#CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)\|\(user-content-[a-zA-Z0-9-]*\)')
-CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*[_-]MiSTer)|(user-content-[a-zA-Z0-9-]*)')
+#CORE_URLS=$(fetch_url "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)\|\(user-content-[a-zA-Z0-9-]*\)')
+CORE_URLS=$(fetch_url "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*[_-]MiSTer)|(user-content-[a-zA-Z0-9-]*)')
 MENU_URL=$(echo "${CORE_URLS}" | grep -io 'https://github.com/[a-zA-Z0-9./_-]*Menu_MiSTer')
 MENU_URL=$(sed "s%MiSTer-devel%Miguel-T80c%g" <<< "$MENU_URL")
 CORE_URLS=$(echo "${CORE_URLS}" |  sed 's/https:\/\/github.com\/[a-zA-Z0-9.\/_-]*Menu_MiSTer//')
 CORE_URLS=$(sed "s%MiSTer-devel%Miguel-T80c%g" <<< "$CORE_URLS")
-CORE_URLS=${SD_INSTALLER_URL}$'\n'${MISTER_URL}$'\n'${MENU_URL}$'\n'${CORE_URLS}$'\n'"user-content-arcade-cores"$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki/Arcade-Cores-List"| awk '/wiki-content/,/wiki-rightbar/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)' | awk '!a[$0]++')
+CORE_URLS=${SD_INSTALLER_URL}$'\n'${MISTER_URL}$'\n'${MENU_URL}$'\n'${CORE_URLS}$'\n'"user-content-arcade-cores"$'\n'$(fetch_url "$MISTER_URL/wiki/Arcade-Cores-List"| awk '/wiki-content/,/wiki-rightbar/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)' | awk '!a[$0]++')
 CORE_CATEGORY="-"
 SD_INSTALLER_PATH=""
 REBOOT_NEEDED="false"
@@ -411,7 +429,7 @@ then
 		echo "Downloading MiSTer-devel updates"
 		echo ""
 		API_PAGE=1
-		API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${MISTER_DEVEL_REPOS_URL}?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
+		API_RESPONSE=$(fetch_url "${MISTER_DEVEL_REPOS_URL}?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
 		until [ "${API_RESPONSE}" == "" ]; do
 			for API_RESPONSE_LINE in $API_RESPONSE; do
 				if [[ "${API_RESPONSE_LINE}" =~ https: ]]
@@ -425,7 +443,7 @@ then
 				fi
 			done
 			API_PAGE=$((API_PAGE+1))
-			API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${MISTER_DEVEL_REPOS_URL}?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
+			API_RESPONSE=$(fetch_url "${MISTER_DEVEL_REPOS_URL}?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
 		done
 		if [ "${CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER}" != "" ]
 		then
@@ -463,7 +481,7 @@ fi
 GOOD_CORES=""
 if [ "$GOOD_CORES_URL" != "" ]
 then
-	GOOD_CORES=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$GOOD_CORES_URL")
+	GOOD_CORES=$(fetch_url "$GOOD_CORES_URL")
 fi
 
 function checkCoreURL {
@@ -478,7 +496,7 @@ function checkCoreURL {
 	# then
 	# 	RELEASES_URL="$CORE_URL"
 	# else
-	# 	RELEASES_URL=https://github.com$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$CORE_URL" | grep -oi '/MiSTer-devel/[a-zA-Z0-9./_-]*/tree/[a-zA-Z0-9./_-]*/releases' | head -n1)
+	# 	RELEASES_URL=https://github.com$(fetch_url "$CORE_URL" | grep -oi '/MiSTer-devel/[a-zA-Z0-9./_-]*/tree/[a-zA-Z0-9./_-]*/releases' | head -n1)
 	# fi
 	case "$CORE_URL" in
 		*SD-Installer*)
@@ -492,11 +510,11 @@ function checkCoreURL {
 			;;
 	esac
 	RELEASES_HTML=""
-	RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}" 2> /dev/null)
+	RELEASES_HTML=$(fetch_url "${RELEASES_URL}" 2> /dev/null)
 	if [[ "${RELEASES_HTML}" == "" ]] ; then
 		RELEASES_URL=$(sed "s%Miguel-T80c%MiSTer-devel%g" <<< "${RELEASES_URL}")
 		DOMAIN_URL="MiSTer-devel"
-		RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
+		RELEASES_HTML=$(fetch_url "${RELEASES_URL}")
 	fi
 	RELEASE_URLS=$(echo ${RELEASES_HTML} | grep -oE '/'${DOMAIN_URL}'/[a-zA-Z0-9./_-]*_[0-9]{8}[a-zA-Z]?(\.rbf|\.rar|\.zip)?')
 
@@ -653,7 +671,7 @@ function checkCoreURL {
 		then
 			#DESTINATION_FILE=$(echo "${MAX_RELEASE_URL}" | sed 's/.*\///g' | sed 's/_[0-9]\{8\}[a-zA-Z]\{0,1\}//g')
 			DESTINATION_FILE=$(echo "${MAX_RELEASE_URL}" | sed 's/.*\///g; s/_[0-9]\{8\}[a-zA-Z]\{0,1\}//g')
-			ACTUAL_CRC=$(md5sum "/media/fat/${DESTINATION_FILE}" | grep -o "^[^ ]*")
+			ACTUAL_CRC=$(md5sum "${BASE_PATH}/${DESTINATION_FILE}" | grep -o "^[^ ]*")
 			SAVED_CRC=$(cat "${WORK_PATH}/${FILE_NAME}")
 			if [ "$ACTUAL_CRC" != "$SAVED_CRC" ]
 			then
@@ -682,9 +700,9 @@ function checkCoreURL {
 					#DESTINATION_FILE=$(echo "$MAX_RELEASE_URL" | sed 's/.*\///g' | sed 's/_[0-9]\{8\}[a-zA-Z]\{0,1\}//g')
 					DESTINATION_FILE=$(echo "$MAX_RELEASE_URL" | sed 's/.*\///g; s/_[0-9]\{8\}[a-zA-Z]\{0,1\}//g')
 					echo "Moving $DESTINATION_FILE"
-					rm "/media/fat/$DESTINATION_FILE" > /dev/null 2>&1
-					mv "$CURRENT_DIR/$FILE_NAME" "/media/fat/$DESTINATION_FILE"
-					echo "$(md5sum "/media/fat/${DESTINATION_FILE}" | grep -o "^[^ ]*")" > "${CURRENT_DIR}/${FILE_NAME}"
+					rm "${BASE_PATH}/$DESTINATION_FILE" > /dev/null 2>&1
+					mv "$CURRENT_DIR/$FILE_NAME" "${BASE_PATH}/$DESTINATION_FILE"
+					echo "$(md5sum "${BASE_PATH}/${DESTINATION_FILE}" | grep -o "^[^ ]*")" > "${CURRENT_DIR}/${FILE_NAME}"
 					REBOOT_NEEDED="true"
 				fi
 				#if echo "$CORE_URL" | grep -q "SD-Installer"
@@ -751,7 +769,7 @@ function checkCoreURL {
 								;;
 							*)
 								CORE_SOURCE_URL="$(echo "https://github.com$MAX_RELEASE_URL" | sed 's/releases.*//g')${BASE_FILE_NAME}.sv"
-								CORE_INTERNAL_NAME="$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "${CORE_SOURCE_URL}?raw=true" | awk '/CONF_STR[^=]*=/,/;/' | grep -oE -m1 '".*?;' | sed 's/[";]//g')"
+								CORE_INTERNAL_NAME="$(fetch_url "${CORE_SOURCE_URL}?raw=true" | awk '/CONF_STR[^=]*=/,/;/' | grep -oE -m1 '".*?;' | sed 's/[";]//g')"
 								;;
 						esac
 						if [ "$CORE_INTERNAL_NAME" != "" ]
@@ -834,7 +852,7 @@ function checkAdditionalRepository {
 		fi
 		if [ "${RELEASES_HTML}" == "" ]
 		then
-			CONTENT_TDS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$ADDITIONAL_FILES_URL")
+			CONTENT_TDS=$(fetch_url "$ADDITIONAL_FILES_URL")
 		else
 			CONTENT_TDS="${RELEASES_HTML}"
 		fi
@@ -1069,7 +1087,7 @@ if [ "${UPDATE_CHEATS}" != "false" ]
 then
 	echo "Checking Cheats"
 	echo ""
-	CHEAT_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf --cookie "challenge=BitMitigate.com" "${CHEATS_URL}" | grep -oE '"mister_[^_]+_[0-9]{8}.zip"' | sed 's/"//g')
+	CHEAT_URLS=$(fetch_url --cookie "challenge=BitMitigate.com" "${CHEATS_URL}" | grep -oE '"mister_[^_]+_[0-9]{8}.zip"' | sed 's/"//g')
 	for CHEAT_MAPPING in ${CHEAT_MAPPINGS}; do
 		[ "$PARALLEL_UPDATE" == "true" ] && { echo "$(checkCheat)"$'\n' & } || checkCheat
 	done
@@ -1143,9 +1161,9 @@ sync
 if [ "$SD_INSTALLER_PATH" != "" ]
 then
 	echo "Linux system must be updated"
-	if [ ! -f "/media/fat/linux/unrar-nonfree" ]
+	if [ ! -f "${BASE_PATH}/linux/unrar-nonfree" ]
 	then
-		UNRAR_DEB_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$UNRAR_DEBS_URL" | grep -o '\"unrar[a-zA-Z0-9%./_+-]*_armhf\.deb\"' | sed 's/\"//g')
+		UNRAR_DEB_URLS=$(fetch_url "$UNRAR_DEBS_URL" | grep -o '\"unrar[a-zA-Z0-9%./_+-]*_armhf\.deb\"' | sed 's/\"//g')
 		MAX_VERSION=""
 		MAX_RELEASE_URL=""
 		for RELEASE_URL in $UNRAR_DEB_URLS; do
@@ -1165,20 +1183,20 @@ then
 		ar -x "$TEMP_PATH/$MAX_RELEASE_URL" data.tar.xz
 		cd "$ORIGINAL_DIR"
 		rm "$TEMP_PATH/$MAX_RELEASE_URL"
-		tar -xJf "$TEMP_PATH/data.tar.xz" --strip-components=3 -C "/media/fat/linux" ./usr/bin/unrar-nonfree
+		tar -xJf "$TEMP_PATH/data.tar.xz" --strip-components=3 -C "${BASE_PATH}/linux" ./usr/bin/unrar-nonfree
 		rm "$TEMP_PATH/data.tar.xz" > /dev/null 2>&1
 	fi
-	if [ -f "/media/fat/linux/unrar-nonfree" ] && [ -f "$SD_INSTALLER_PATH" ]
+	if [ -f "${BASE_PATH}/linux/unrar-nonfree" ] && [ -f "$SD_INSTALLER_PATH" ]
 	then
 		sync
-		if /media/fat/linux/unrar-nonfree t "$SD_INSTALLER_PATH"
+		if ${BASE_PATH}/linux/unrar-nonfree t "$SD_INSTALLER_PATH"
 		then
-			if [ -d /media/fat/linux.update ]
+			if [ -d ${BASE_PATH}/linux.update ]
 			then
-				rm -R "/media/fat/linux.update" > /dev/null 2>&1
+				rm -R "${BASE_PATH}/linux.update" > /dev/null 2>&1
 			fi
-			mkdir "/media/fat/linux.update"
-			if /media/fat/linux/unrar-nonfree x -y "$SD_INSTALLER_PATH" files/linux/* /media/fat/linux.update
+			mkdir "${BASE_PATH}/linux.update"
+			if ${BASE_PATH}/linux/unrar-nonfree x -y "$SD_INSTALLER_PATH" files/linux/* ${BASE_PATH}/linux.update
 			then
 				echo ""
 				echo "======================================================================================"
@@ -1194,16 +1212,16 @@ then
 				rm "$SD_INSTALLER_PATH" > /dev/null 2>&1
 				touch "$SD_INSTALLER_PATH"
 				sync
-				mv -f "/media/fat/linux.update/files/linux/linux.img" "/media/fat/linux/linux.img.new"
-				mv -f "/media/fat/linux.update/files/linux/"* "/media/fat/linux/"
-				rm -R "/media/fat/linux.update" > /dev/null 2>&1
+				mv -f "${BASE_PATH}/linux.update/files/linux/linux.img" "${BASE_PATH}/linux/linux.img.new"
+				mv -f "${BASE_PATH}/linux.update/files/linux/"* "${BASE_PATH}/linux/"
+				rm -R "${BASE_PATH}/linux.update" > /dev/null 2>&1
 				sync
-				/media/fat/linux/updateboot
+				${BASE_PATH}/linux/updateboot
 				sync
-				mv -f "/media/fat/linux/linux.img.new" "/media/fat/linux/linux.img"
+				mv -f "${BASE_PATH}/linux/linux.img.new" "${BASE_PATH}/linux/linux.img"
 				sync
 			else
-				rm -R "/media/fat/linux.update" > /dev/null 2>&1
+				rm -R "${BASE_PATH}/linux.update" > /dev/null 2>&1
 				sync
 			fi
 			REBOOT_NEEDED="true"
