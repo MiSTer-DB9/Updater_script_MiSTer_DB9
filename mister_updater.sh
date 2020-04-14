@@ -137,7 +137,7 @@ UPDATE_CHEATS="once"
 UPDATE_LINUX="true"
 
 #EXPERIMENTAL: specifies if the update process must be done with parallel processing; use it at your own risk!
-PARALLEL_UPDATE="true"
+PARALLEL_UPDATE="false"
 
 #Specifies an optional URL with a text file containing a curated list of "good" cores.
 #If a core is specified there, it will be preferred over the latest "bleeding edge" core in its repository.
@@ -436,6 +436,23 @@ then
 			done
 			API_PAGE=$((API_PAGE+1))
 			API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${MISTER_DEVEL_REPOS_URL}?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
+		done
+		API_PAGE=1
+		API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://api.github.com/users/miguel-t80c/repos?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
+		until [ "${API_RESPONSE}" == "" ]; do
+			for API_RESPONSE_LINE in $API_RESPONSE; do
+				if [[ "${API_RESPONSE_LINE}" =~ https: ]]
+				then
+					if [[ "${LAST_SUCCESSFUL_RUN_DATETIME_UTC}" < "${REPO_UPDATE_DATETIME_UTC}" ]]
+					then
+						CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER="${CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER} ${API_RESPONSE_LINE##*/}"
+					fi
+				else
+					REPO_UPDATE_DATETIME_UTC="${API_RESPONSE_LINE}"
+				fi
+			done
+			API_PAGE=$((API_PAGE+1))
+			API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://api.github.com/users/miguel-t80c/repos?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
 		done
 		if [ "${CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER}" != "" ]
 		then
