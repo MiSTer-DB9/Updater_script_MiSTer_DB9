@@ -15,6 +15,8 @@
 
 # Copyright 2019-2020 Alessandro "Locutus73" Miele
 
+# DB9 Fork from 'theypsilon' 2020
+
 # You can download the latest version of this script from:
 # https://github.com/theypsilon/Updater_script_MiSTer_DB9
 
