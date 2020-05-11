@@ -29,7 +29,7 @@
 
 # ========= OPTIONS ==================
 URL="https://github.com"
-SCRIPT_URL="${URL}/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh"
+SCRIPT_URL="${URL}/theypsilon/Updater_script_MiSTer_DB9/blob/jotego/mister_updater.sh"
 CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5 --silent --show-error"
 
 # ========= ADVANCED OPTIONS =========
