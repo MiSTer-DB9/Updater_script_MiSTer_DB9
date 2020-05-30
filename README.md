@@ -1,6 +1,6 @@
 # jtupdate
 
-This repository is dedicated to the update script(s) that download cores for MiSTer from any external sources. The primary intent is to use it with the [https://github.com/jotego/jtbin/](JT binary repositoty) but it is open to link to more sources of content.
+This repository is dedicated to the update script(s) that download cores for MiSTer from any external sources. The primary intent is to use it with the [JT binary repositoty](https://github.com/jotego/jtbin/) but it is open to link to more sources of content.
 
 The update scripts could be made to work with other upcoming FPGA platforms too. There is no specific limit to the target FPGA or the content source.
 
