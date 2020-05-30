@@ -167,6 +167,37 @@ MAME_ALT_ROMS="true"
 #otherwise the subdir you prefer (i.e. GAMES_SUBDIR="/Programs").
 GAMES_SUBDIR=""
 
+
+#echo +------------------------------------------------------------------------------+
+echo \|ooooooooooooooooooooooooooooooooo+++++++++++oooooooooooooooooooooooooooooooooo\|
+echo \|oooooooooooooooooooooooooooooooo+.\ .\ \ \ \ .\ .+oooooooooooooooooooooooooooooooooo\|
+echo \|oooooooooooooooooooooooooooooooo\~\ \ \ \ \ \ \ \ \ :o++oooooooooooooooooooooooooooooooo\|
+echo \|ooooooooooooooooooooooooooo+ooo+.\ \ \ \ \ \ \ \ .++.:oo+oo+oooooo+o+oo+oooooo++oooooo\|
+echo \|oooooooooooooooooooooooo+.......\ \ \ \ \ \ \ \ \ \ ..\ .............................:ooo\|
+echo \|ooooooooooooooooooooooo+.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ .+o+o\|
+echo \|ooooooooooooooooooooooo:\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ :o:.+\|
+echo \|oooooooooooooooooooooo+.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ .++.:o\|
+echo \|oooooooooooooooooooooo:.....\ \ \ \ \ \ \ \ \ \ \ ...........\ \ \ \ \ \ \ \ \ \ .......\ ....:o\~.+o\|
+echo \|ooooooooooooooooooooooo+++++\~\ \ \ \ \ \ \ \ \ \~+++:++:++++.\ \ \ \ \ \ \ \ \ ++++++++++++++.+oo\|
+echo \|ooooooooooooooooooooooooo+:\~\ \ \ \ \ \ \ \ \ .++.\~:::::::.\ \ \ \ \ \ \ \ \ .o+.\~:::::::::::+oo\|
+echo \|ooooooooooooooooooooooooooo:\ \ \ \ \ \ \ \ \ :o\~.+oooooo+.\ \ \ \ \ \ \ \ \ ++.\~ooooooooooooooo\|
+echo \|oo\~........\~oooooooooooooo+.\ \ \ \ \ \ \ \ .++.:ooooooo+\ \ \ \ \ \ \ \ \ \~o:.+ooooooooooooooo\|
+echo \|o:\ \ \ \ \ \ \ \ \ \~o++ooooooooooo.\ \ \ \ \ \ \ \ \ +o\~.ooooooo+.\ \ \ \ \ \ \ \ .++.\~oooooooooooooooo\|
+echo \|o.\ \ \ \ \ \ \ \ \ :+.:ooooooooo+.\ \ \ \ \ \ \ \ \ \~o+.+ooooooo:\ \ \ \ \ \ \ \ \ \~o:.+oooooooooooooooo\|
+echo \|o.\ \ \ \ \ \ \ \ \ ...\~:::::::..\ \ \ \ \ \ \ \ \ \ .++.\~ooooooo+.\ \ \ \ \ \ \ \ .o+.:ooooooooooooooooo\|
+echo \|o\~\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \~o+..+ooooooo\~\ \ \ \ \ \ \ \ \ +o\~.+ooooooooooooooooo\|
+echo \|o+.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ .\~+o+..+ooooooo+.\ \ \ \ \ \ \ \ .o+.+oooooooooooooooooo\|
+echo \|ooo\~.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ .:+o+..:+oooooooo.\ \ \ \ \ \ \ \ \ +o..ooooooooooooooooooo\|
+echo \|oooo+:...\ \ \ \ \ \ \ \ \ \ \ \ \ \ ..\~:+++:..:+ooooooooo+\ \ \ \ \ \ \ \ \ .o+.+ooooooooooooooooooo\|
+echo \|oooooo+++::::::::::++++++++\~\~.\~++ooooooooooo+:+:::::+:++.\~oooooooooooooooooooo\|
+echo \|oooooooo+++:::::::::\~:\~\~\~\~:++oooooooooooooooooo+::::\~::\~.+oooooooooooooooooooo\|
+#echo \|ooooooooooooo+o+oo++++o+ooooooooooooooooooooooo+o+++o++o+ooooooooooooooooooooo\|
+#echo +------------------------------------------------------------------------------+
+sleep 2
+echo
+echo Original script by Alessandro \"Locutus73\" Miele
+echo
+
 #========= ADVANCED OPTIONS =========
 #ALLOW_INSECURE_SSL="true" will check if SSL certificate verification (see https://curl.haxx.se/docs/sslcerts.html )
 #is working (CA certificates installed) and when it's working it will use this feature for safe curl HTTPS downloads,
@@ -179,7 +210,7 @@ CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5"
 MISTER_URL="https://github.com/MiSTer-devel/Main_MiSTer"
 SCRIPTS_PATH="Scripts"
 OLD_SCRIPTS_PATH="#Scripts"
-WORK_PATH="/media/fat/$SCRIPTS_PATH/.mister_updater"
+WORK_PATH="/media/fat/$SCRIPTS_PATH/.mister_updater_jt"
 #Comment (or uncomment) next lines if you don't want (or want) to update/download from additional repositories (i.e. Scaler filters and Gameboy palettes) each time
 ADDITIONAL_REPOSITORIES=(
 #	"https://github.com/MiSTer-devel/Filters_MiSTer/tree/master/Filters|txt|$BASE_PATH/Filters"
@@ -423,11 +454,18 @@ ERROR_ADDITIONAL_REPOSITORIES_FILE=$(mktemp)
 
 echo "Downloading MiSTer Wiki structure"
 echo ""
-#CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "https://github.com/theypsilon/Updater_script_MiSTer_DB9/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)\|\(user-content-[a-zA-Z0-9-]*\)')
-CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "https://github.com/theypsilon/Updater_script_MiSTer_DB9/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*[_-]MiSTer)|(https://github.com/jotego/jtbin/[a-zA-Z0-9./_-]*)|(user-content-[a-zA-Z0-9-]*)')
-MENU_URL=$(echo "${CORE_URLS}" | grep -io 'https://github.com/[a-zA-Z0-9./_-]*Menu_MiSTer')
-CORE_URLS=$(echo "${CORE_URLS}" |  sed 's/https:\/\/github.com\/[a-zA-Z0-9.\/_-]*Menu_MiSTer//')
-CORE_URLS=${SD_INSTALLER_URL}$'\n'${MISTER_URL}$'\n'${MENU_URL}$'\n'${CORE_URLS}$'\n'"user-content-arcade-cores"$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "https://github.com/theypsilon/Updater_script_MiSTer_DB9/wiki/Arcade-Cores-List"| awk '/wiki-content/,/wiki-rightbar/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*_MiSTer)|(https://github.com/jotego/jtbin/[a-zA-Z0-9./_-]*)' | awk '!a[$0]++')
+#CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)\|\(user-content-[a-zA-Z0-9-]*\)')
+#CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*[_-]MiSTer)|(user-content-[a-zA-Z0-9-]*)')
+#MENU_URL=$(echo "${CORE_URLS}" | grep -io 'https://github.com/[a-zA-Z0-9./_-]*Menu_MiSTer')
+#CORE_URLS=$(echo "${CORE_URLS}" |  sed 's/https:\/\/github.com\/[a-zA-Z0-9.\/_-]*Menu_MiSTer//')
+#CORE_URLS=${SD_INSTALLER_URL}$'\n'${MISTER_URL}$'\n'${MENU_URL}$'\n'${CORE_URLS}$'\n'"user-content-arcade-cores"$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki/Arcade-Cores-List"| awk '/wiki-content/,/wiki-rightbar/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)' | awk '!a[$0]++')
+CORE_URLS="user-content-arcade-cores"$'\n'$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "https://github.com/jotego/jtbin/wiki"| awk '/wiki-content/,/wiki-rightbar/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*_MiSTer)|(https://github.com/jotego/jtbin/[a-zA-Z0-9./_-]*)' | awk '!a[$0]++')
+UPDATE_CHEATS="false"
+UPDATE_LINUX="false"
+MAME_ALT_ROMS="false"
+mkdir -p "$WORK_PATH"
+ADDITIONAL_REPOSITORIES=()
+FILTERS_URL=""
 CORE_CATEGORY="-"
 SD_INSTALLER_PATH=""
 REBOOT_NEEDED="false"
