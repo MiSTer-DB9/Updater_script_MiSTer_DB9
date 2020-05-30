@@ -190,10 +190,11 @@ echo \|o+.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ .\~+o+..+ooooooo
 echo \|ooo\~.\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ .:+o+..:+oooooooo.\ \ \ \ \ \ \ \ \ +o..ooooooooooooooooooo\|
 echo \|oooo+:...\ \ \ \ \ \ \ \ \ \ \ \ \ \ ..\~:+++:..:+ooooooooo+\ \ \ \ \ \ \ \ \ .o+.+ooooooooooooooooooo\|
 echo \|oooooo+++::::::::::++++++++\~\~.\~++ooooooooooo+:+:::::+:++.\~oooooooooooooooooooo\|
-echo \|oooooooo+++:::::::::\~:\~\~\~\~:++oooooooooooooooooo+::::\~::\~.+oooooooooooooooooooo\|
+echo -n \|oooooooo+++:::::::::\~:\~\~\~\~:++oooooooooooooooooo+::::\~::\~.+oooooooooooooooooooo\|
 #echo \|ooooooooooooo+o+oo++++o+ooooooooooooooooooooooo+o+++o++o+ooooooooooooooooooooo\|
 #echo +------------------------------------------------------------------------------+
 sleep 2
+echo
 echo
 echo Original script by Alessandro \"Locutus73\" Miele
 echo
@@ -452,8 +453,8 @@ ERROR_ADDITIONAL_REPOSITORIES_FILE=$(mktemp)
 
 [ "${UPDATE_LINUX}" == "true" ] && SD_INSTALLER_URL="https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer"
 
-echo "Downloading MiSTer Wiki structure"
-echo ""
+#echo "Downloading MiSTer Wiki structure"
+#echo ""
 #CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)\|\(user-content-[a-zA-Z0-9-]*\)')
 #CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk '/user-content-fpga-cores/,/user-content-development/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*[_-]MiSTer)|(user-content-[a-zA-Z0-9-]*)')
 #MENU_URL=$(echo "${CORE_URLS}" | grep -io 'https://github.com/[a-zA-Z0-9./_-]*Menu_MiSTer')
@@ -463,6 +464,7 @@ CORE_URLS="user-content-arcade-cores"$'\n'$'\n'$(curl $CURL_RETRY $SSL_SECURITY_
 UPDATE_CHEATS="false"
 UPDATE_LINUX="false"
 MAME_ALT_ROMS="false"
+MISTER_DEVEL_REPOS_URL="https://api.github.com/users/jotego/repos"
 mkdir -p "$WORK_PATH"
 ADDITIONAL_REPOSITORIES=()
 FILTERS_URL=""
@@ -492,7 +494,7 @@ then
 	
 	if [ "${MISTER_DEVEL_REPOS_URL}" != "" ] && [ "${INI_DATETIME_UTC}" == "${LAST_SUCCESSFUL_RUN_INI_DATETIME_UTC}" ] && [ "${UPDATER_VERSION}" == "${LAST_SUCCESSFUL_RUN_UPDATER_VERSION}" ]
 	then
-		echo "Downloading MiSTer-devel updates"
+		echo "Downloading ${MISTER_DEVEL_REPOS_URL} updates"
 		echo ""
 		API_PAGE=1
 		API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${MISTER_DEVEL_REPOS_URL}?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
