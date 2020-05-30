@@ -1,47 +1,35 @@
-# Updater script for MiSTer
-The script updates all [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki) cores, including menu.rbf and the main MiSTer Linux executable; it updates scaler filters, GameBoy palettes and scripts; it can (experimental and risky) optionally update the whole Linux system.<br>
-Simply put [update.sh](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/update.sh?raw=true) in your SD and launch it through MiSTer main menu OSD (press F12 and then Scripts).<br>
-Please right click (save link as...) on the links in this README (inside the README, not in the GitHub repository) or on the RAW button in GitHub script pages in order to actually download the raw Bash scripts, otherwise you could download an HTML page which isn’t a script and won’t be executed by MiSTer (you will see no output, but just an OK button in MiSTer Script menu interface); please don't copy and paste any script code or you may end with a non working script if you use Windows (different end of line character).<br>
-[update.sh](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/update.sh?raw=true) will always download and execute the latest [mister_updater.sh](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh?raw=true) (where the real update code is) from GitHub, so you will never have to deal with "updater updates". You can make an update.ini (same name as the script and placed in the same directory) file with custom user options: see [mister_updater.sh USER OPTIONS section](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/5c7968cca525adc53b8690c8f762ab49cd2e852e/mister_updater.sh#L89-L205) (please click the link) for all user options and their detailed explanations. If you feel uncomfortable, for security reasons, with a script which downloads and executes another script from the Internet, you can directly download and use [mister_updater.sh](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh?raw=true) and it will work the same, all ini file considerations will still be valid, but you will have to update the script manually.<br>
-You can have many differently named copies of [update.sh](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/update.sh?raw=true) (or [mister_updater.sh](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/mister_updater.sh?raw=true) if you prefer) and its ini file, for different updating behaviours i.e.:<br>
-- you can make an *update_arcade.sh* with its *[update_arcade.ini](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/examples/update_arcade.ini?raw=true)* using these settings (simply copy this code in an empty text file named *update_arcade.ini* and put it in the same directory as *update_arcade.sh*):
-```
-REPOSITORIES_FILTER="arcade-cores"
-ADDITIONAL_REPOSITORIES=( )
-UPDATE_CHEATS="false"
-UPDATE_LINUX="false"
-```
-- you can make an *update_commodore.sh* with its *[update_commodore.ini](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/examples/update_commodore.ini?raw=true)* using these settings:
-```
-REPOSITORIES_FILTER="PET2001 VIC20 C64 C16 Minimig"
-ADDITIONAL_REPOSITORIES=( )
-UPDATE_CHEATS="false"
-UPDATE_LINUX="false"
-```
-- you can make an *update_additional_repositories.sh* with its *[update_additional_repositories.ini](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/examples/update_additional_repositories.ini?raw=true)* using these settings:
-```
-REPOSITORIES_FILTER="ZZZZZZZZZ"
-UPDATE_CHEATS="false"
-UPDATE_LINUX="false"
-```
-- you can make an *update_fonts.sh* with its *[update_fonts.ini](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/examples/update_fonts.ini?raw=true)* using these settings:
-```
-REPOSITORIES_FILTER="ZZZZZZZZZ"
-ADDITIONAL_REPOSITORIES=( "https://github.com/MiSTer-devel/Fonts_MiSTer|pf|$BASE_PATH/font" )
-UPDATE_CHEATS="false"
-UPDATE_LINUX="false"
-```
-- you can make an *update_linux.sh* with its *[update_linux.ini](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/examples/update_linux.ini?raw=true)* using these settings:
-```
-REPOSITORIES_FILTER="ZZZZZZZZZ"
-UPDATE_CHEATS="false"
-UPDATE_LINUX="true"
-```
-- you can make an update_all.sh with its [update_all.sh](https://github.com/MiSTer-devel/Updater_script_MiSTer/blob/master/examples/update_all.ini?raw=true) using these settings:
-```
-UPDATE_CHEATS="true"
-UPDATE_LINUX="true"
-ADDITIONAL_REPOSITORIES+=( "https://github.com/MiSTer-devel/Fonts_MiSTer|pf|$BASE_PATH/font" )
+# jtupdate
 
-```
-I take no responsibility for any data loss or anything, if your DE10-Nano catches fire it’s up to you: **use the script at your own risk**.
+This repository is dedicated to the update script(s) that download cores for MiSTer from any external sources. The primary intent is to use it with the [https://github.com/jotego/jtbin/](JT binary repositoty) but it is open to link to more sources of content.
+
+The update scripts could be made to work with other upcoming FPGA platforms too. There is no specific limit to the target FPGA or the content source.
+
+## Mission
+
+Ideally the scripts should make user life nice:
+
+-download required RBF files
+-download required MRA files
+-do not break user's system
+-be open to independent content providers
+-be open to configuration files
+-be open to user-customized folder schemes
+-listen to user requests
+
+Although the repository starts far from these targets, hopefully we'll get there.
+
+## Branching
+
+As this is a critical script for users, it is vital to prevent file corruption. To that purpose there will be two branches
+
+* *master*, the currently stable and recommended one
+* *test*, the one where new features are tested.
+
+Pull requests should go to the *test* branch.
+
+## Final Statement
+
+Contributions are more than welcome as I am more involved now in pure core development and am not the best suited person for this task.
+
+Thank you
+Jotego
