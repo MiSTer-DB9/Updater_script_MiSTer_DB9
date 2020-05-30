@@ -14,6 +14,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Copyright 2019-2020 Alessandro "Locutus73" Miele
+# Adapted to jotego cores by José Manuel Barroso Galindo "theypsilon" © 2020
 
 # You can download the latest version of this script from:
 # https://github.com/MiSTer-devel/Updater_script_MiSTer
