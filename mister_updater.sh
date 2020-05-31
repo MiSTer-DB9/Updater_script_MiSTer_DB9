@@ -194,7 +194,7 @@ echo \|oooooo+++::::::::::++++++++\~\~.\~++ooooooooooo+:+:::::+:++.\~ooooooooooo
 echo -n \|oooooooo+++:::::::::\~:\~\~\~\~:++oooooooooooooooooo+::::\~::\~.+oooooooooooooooooooo\|
 #echo \|ooooooooooooo+o+oo++++o+ooooooooooooooooooooooo+o+++o++o+ooooooooooooooooooooo\|
 #echo +------------------------------------------------------------------------------+
-sleep 2
+sleep 2 > /dev/null 2>&1
 echo
 echo
 echo Original script by Alessandro \"Locutus73\" Miele
