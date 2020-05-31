@@ -555,7 +555,7 @@ fi
 
 function checkCoreURL {
 	[[ ${CORE_URL} =~ ^([a-zA-Z]+://)?github.com(:[0-9]+)?/([a-zA-Z0-9_-]*)/.*$ ]] || true
-	DOMAIN_URL=${BASH_REMATCH[3]}
+	local DOMAIN_URL=${BASH_REMATCH[3]}
 
 	echo "Checking $(sed 's/.*\/// ; s/_MiSTer//' <<< "${CORE_URL}")"
 	[ "${SSH_CLIENT}" != "" ] && echo "URL: $CORE_URL"
@@ -563,7 +563,7 @@ function checkCoreURL {
 	# then
 	# 	RELEASES_URL="$CORE_URL"
 	# else
-	# 	RELEASES_URL=https://github.com$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$CORE_URL" | grep -oi '/MiSTer-devel/[a-zA-Z0-9./_-]*/tree/[a-zA-Z0-9./_-]*/releases' | head -n1)
+	# 	RELEASES_URL=https://github.com$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$CORE_URL" | grep -oi '/'${DOMAIN_URL}'/[a-zA-Z0-9./_-]*/tree/[a-zA-Z0-9./_-]*/releases' | head -n1)
 	# fi
 	case "$CORE_URL" in
 		*SD-Installer*)
@@ -892,6 +892,9 @@ function checkCoreURL {
 }
 
 function checkAdditionalRepository {
+	[[ ${ADDITIONAL_FILES_URL} =~ ^([a-zA-Z]+://)?github.com(:[0-9]+)?/([a-zA-Z0-9_-]*)/.*$ ]] || true
+	local DOMAIN_URL=${BASH_REMATCH[3]}
+
 	OLD_IFS="$IFS"
 	IFS="|"
 	PARAMS=($ADDITIONAL_REPOSITORY)
@@ -901,7 +904,7 @@ function checkAdditionalRepository {
 	IFS="$OLD_IFS"
 	
 	echo "Checking $(echo $ADDITIONAL_FILES_URL | sed 's/.*\///g' | awk '{ print toupper( substr( $0, 1, 1 ) ) substr( $0, 2 ); }')"
-	if ! [[ "${ADDITIONAL_FILES_URL}" == https://github.com/MiSTer-devel/* ]] || [ "$CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER" == "" ] || [[ "${ADDITIONAL_FILES_URL^^}" =~ ${CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER_REGEX^^} ]]
+	if ! [[ "${ADDITIONAL_FILES_URL}" == https://github.com/${DOMAIN_URL}/* ]] || [ "$CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER" == "" ] || [[ "${ADDITIONAL_FILES_URL^^}" =~ ${CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER_REGEX^^} ]]
 	then
 		if [ ! -d "$CURRENT_DIR" ]
 		then
