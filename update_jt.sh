@@ -17,7 +17,7 @@
 # Adapted to jotego cores by José Manuel Barroso Galindo "theypsilon" © 2020
 
 # You can download the latest version of this script from:
-# https://github.com/theypsilon/Updater_script_MiSTer_DB9
+# https://github.com/theypsilon/Updater_script_MiSTer
 
 # Version 2.1.3 - 2020-01-18 - Improved script output.
 # Version 2.1.2 - 2019-08-16 - Minor refactoring by frederic-mahe, thank you very much.
@@ -30,7 +30,7 @@
 
 # ========= OPTIONS ==================
 URL="https://github.com"
-SCRIPT_URL="${URL}/theypsilon/Updater_script_MiSTer_DB9/blob/jotego/mister_updater.sh"
+SCRIPT_URL="${URL}/theypsilon/Updater_script_MiSTer/blob/master/mister_updater.sh"
 CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5 --silent --show-error"
 
 # ========= ADVANCED OPTIONS =========
