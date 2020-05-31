@@ -17,7 +17,7 @@
 # Adapted to jotego cores by José Manuel Barroso Galindo "theypsilon" © 2020
 
 # You can download the latest version of this script from:
-# https://github.com/theypsilon/Updater_script_MiSTer
+# https://github.com/jotego/Updater_script_MiSTer
 
 
 
@@ -325,11 +325,11 @@ case $? in
 esac
 if [ "$SSL_SECURITY_OPTION" == "" ]
 then
-	if [ "$(grep -v "^#" "${ORIGINAL_SCRIPT_PATH}")" == "curl $CURL_RETRY -ksLf https://github.com/theypsilon/Updater_script_MiSTer/blob/master/mister_updater.sh?raw=true | bash -" ]
+	if [ "$(grep -v "^#" "${ORIGINAL_SCRIPT_PATH}")" == "curl $CURL_RETRY -ksLf https://github.com/jotego/Updater_script_MiSTer/blob/master/mister_updater.sh?raw=true | bash -" ]
 	then
 		echo "Downloading $(sed 's/.*\///' <<< "${ORIGINAL_SCRIPT_PATH}")"
 		echo ""
-		curl $CURL_RETRY $SSL_SECURITY_OPTION -L "https://github.com/theypsilon/Updater_script_MiSTer/blob/master/update.sh?raw=true" -o "$ORIGINAL_SCRIPT_PATH"
+		curl $CURL_RETRY $SSL_SECURITY_OPTION -L "https://github.com/jotego/Updater_script_MiSTer/blob/master/update.sh?raw=true" -o "$ORIGINAL_SCRIPT_PATH"
 	fi
 fi
 
@@ -461,11 +461,11 @@ ERROR_ADDITIONAL_REPOSITORIES_FILE=$(mktemp)
 #MENU_URL=$(echo "${CORE_URLS}" | grep -io 'https://github.com/[a-zA-Z0-9./_-]*Menu_MiSTer')
 #CORE_URLS=$(echo "${CORE_URLS}" |  sed 's/https:\/\/github.com\/[a-zA-Z0-9.\/_-]*Menu_MiSTer//')
 #CORE_URLS=${SD_INSTALLER_URL}$'\n'${MISTER_URL}$'\n'${MENU_URL}$'\n'${CORE_URLS}$'\n'"user-content-arcade-cores"$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki/Arcade-Cores-List"| awk '/wiki-content/,/wiki-rightbar/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)' | awk '!a[$0]++')
-CORE_URLS="user-content-arcade-cores"$'\n'$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "https://github.com/theypsilon/jtbin/wiki"| awk '/wiki-content/,/wiki-rightbar/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*_MiSTer)|(https://github.com/theypsilon/jtbin/[a-zA-Z0-9./_-]*)' | awk '!a[$0]++')
+CORE_URLS="user-content-arcade-cores"$'\n'$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "https://github.com/jotego/jtbin/wiki"| awk '/wiki-content/,/wiki-rightbar/' | grep -ioE '(https://github.com/[a-zA-Z0-9./_-]*_MiSTer)|(https://github.com/jotego/jtbin/[a-zA-Z0-9./_-]*)' | awk '!a[$0]++')
 UPDATE_CHEATS="false"
 UPDATE_LINUX="false"
 MAME_ALT_ROMS="false"
-MISTER_DEVEL_REPOS_URL="https://api.github.com/users/theypsilon/repos"
+MISTER_DEVEL_REPOS_URL="https://api.github.com/users/jotego/repos"
 mkdir -p "$WORK_PATH"
 ADDITIONAL_REPOSITORIES=()
 FILTERS_URL=""
@@ -572,8 +572,8 @@ function checkCoreURL {
 		*Minimig*)
 			RELEASES_URL="${CORE_URL}/file-list/MiSTer/releases"
 			;;
-		*theypsilon/jtbin*)
-			RELEASES_URL="https://github.com/theypsilon/jtbin/file-list/master/mister/$(basename ${CORE_URL})/releases"
+		*jotego/jtbin*)
+			RELEASES_URL="https://github.com/jotego/jtbin/file-list/master/mister/$(basename ${CORE_URL})/releases"
 			;;
 		*)
 			RELEASES_URL="${CORE_URL}/file-list/master/releases"
