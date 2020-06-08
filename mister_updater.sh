@@ -315,8 +315,16 @@ fi
 
 FIRST_TIME_DB9="false"
 if [ ! -f "${WORK_PATH}/db9" ] ; then
-	rm -rf ${WORK_PATH} || true
-	mkdir -p ${WORK_PATH}
+	if [ -d ${WORK_PATH} ] ; then
+		pushd ${WORK_PATH} > /dev/null 2>&1
+		rm -rf *.last_successful_run || true
+		rm -rf *.log || true
+		rm -rf menu_* || true
+		rm -rf MiSTer_* || true
+		popd > /dev/null 2>&1
+	else
+		mkdir -p ${WORK_PATH}
+	fi
 	FIRST_TIME_DB9="true"
 fi
 
