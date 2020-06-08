@@ -317,7 +317,6 @@ FIRST_TIME_DB9="false"
 if [ ! -f "${WORK_PATH}/db9" ] ; then
 	rm -rf ${WORK_PATH} || true
 	mkdir -p ${WORK_PATH}
-	touch "${WORK_PATH}/db9"
 	FIRST_TIME_DB9="true"
 fi
 
@@ -1291,6 +1290,10 @@ then
 			rm "$SD_INSTALLER_PATH" > /dev/null 2>&1
 		fi
 	fi
+fi
+
+if [[ "${FIRST_TIME_DB9}" == "true" ]] ; then
+	touch "${WORK_PATH}/db9"
 fi
 
 echo "Done!"
