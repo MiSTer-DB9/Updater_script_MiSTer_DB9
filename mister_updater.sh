@@ -212,7 +212,9 @@ TO_BE_DELETED_EXTENSION="to_be_deleted"
 
 UPDATER_VERSION="4.0.7"
 echo "MiSTer Updater version ${UPDATER_VERSION}"
-echo "With DB9/SNAC8 extra batteries!"
+echo ""
+echo "Cores with ENCC: \"Extended Native Controller Compatibility\""
+echo "Compatible with DB9/SNAC8 connectors!"
 echo ""
 
 ORIGINAL_SCRIPT_PATH="$0"
