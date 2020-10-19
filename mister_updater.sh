@@ -450,7 +450,7 @@ CORE_URLS=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki"| awk 
 MENU_URL=$(echo "${CORE_URLS}" | grep -io 'https://github.com/[a-zA-Z0-9./_-]*Menu_MiSTer')
 CORE_URLS=$(echo "${CORE_URLS}" |  sed 's/https:\/\/github.com\/[a-zA-Z0-9.\/_-]*Menu_MiSTer//')
 CORE_URLS=${SD_INSTALLER_URL}$'\n'${MISTER_URL}$'\n'${MENU_URL}$'\n'${CORE_URLS}$'\n'"user-content-arcade-cores"$'\n'$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$MISTER_URL/wiki/Arcade-Cores-List"| awk '/wiki-content/,/wiki-rightbar/' | grep -io '\(https://github.com/[a-zA-Z0-9./_-]*_MiSTer\)' | awk '!a[$0]++')
-CORE_URLS=$(sed "s%MiSTer-devel%Miguel-T80c%g" <<< "$CORE_URLS")
+CORE_URLS=$(sed "s%MiSTer-devel%MiSTer-DB9%g" <<< "$CORE_URLS")
 CORE_CATEGORY="-"
 SD_INSTALLER_PATH=""
 REBOOT_NEEDED="false"
@@ -498,7 +498,7 @@ then
 			API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${MISTER_DEVEL_REPOS_URL}?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
 		done
 		API_PAGE=1
-		API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://api.github.com/users/miguel-t80c/repos?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
+		API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://api.github.com/users/mister-db9/repos?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
 		until [ "${API_RESPONSE}" == "" ]; do
 			for API_RESPONSE_LINE in $API_RESPONSE; do
 				if [[ "${API_RESPONSE_LINE}" =~ https: ]]
@@ -512,7 +512,7 @@ then
 				fi
 			done
 			API_PAGE=$((API_PAGE+1))
-			API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://api.github.com/users/miguel-t80c/repos?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
+			API_RESPONSE=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://api.github.com/users/mister-db9/repos?per_page=100&page=${API_PAGE}" | grep -oE '("svn_url": "[^"]*)|("updated_at": "[^"]*)' | sed 's/"svn_url": "//; s/"updated_at": "//')
 		done
 		if [ "${CORE_CATEGORIES_LAST_SUCCESSFUL_RUN_FILTER}" != "" ]
 		then
@@ -581,7 +581,7 @@ function checkCoreURL {
 	RELEASES_HTML=""
 	RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}" 2> /dev/null)
 	if [[ "${RELEASES_HTML}" == "" ]] ; then
-		RELEASES_URL=$(sed "s%Miguel-T80c%MiSTer-devel%g" <<< "${RELEASES_URL}")
+		RELEASES_URL=$(sed "s%MiSTer-DB9%MiSTer-devel%g" <<< "${RELEASES_URL}")
 		DOMAIN_URL="MiSTer-devel"
 		RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
 	fi
