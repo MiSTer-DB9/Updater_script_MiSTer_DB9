@@ -218,6 +218,7 @@ echo ""
 echo "Cores with ENCC: \"Extended Native Controller Compatibility\""
 echo "Compatible with DB9/SNAC8 connectors!"
 echo ""
+UPDATER_VERSION="${UPDATER_VERSION}-db9"
 
 ORIGINAL_SCRIPT_PATH="$0"
 if [ "$ORIGINAL_SCRIPT_PATH" == "bash" ]
