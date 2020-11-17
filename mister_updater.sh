@@ -575,9 +575,6 @@ function checkCoreURL {
 		*Minimig*)
 			RELEASES_URL="${CORE_URL}/file-list/MiSTer/releases"
 			;;
-		*SEGASYS1*)
-			RELEASES_URL="${CORE_URL}/file-list/main/releases"
-			;;
 		*)
 			RELEASES_URL="${CORE_URL}/file-list/master/releases"
 			;;
