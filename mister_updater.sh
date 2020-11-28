@@ -561,7 +561,6 @@ function checkCoreURL {
 	DOMAIN_URL=${BASH_REMATCH[3]}
 
 	echo "Checking $(sed 's/.*\/// ; s/_MiSTer//' <<< "${CORE_URL}")"
-	[ "${SSH_CLIENT}" != "" ] && echo "URL: $CORE_URL"
 	# if echo "$CORE_URL" | grep -qE "SD-Installer"
 	# then
 	# 	RELEASES_URL="$CORE_URL"
@@ -577,18 +576,16 @@ function checkCoreURL {
 			BRANCH_NAME=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "${BRANCHES_URL}" | grep "branch-name" | head -n1 | sed 's/.*>\(.*\)<.*/\1/' 2> /dev/null)
 			if [[ "${BRANCH_NAME}" == "" ]] ; then
 				BRANCHES_URL=$(sed "s%MiSTer-DB9%MiSTer-devel%g" <<< "${BRANCHES_URL}")
+				CORE_URL=$(sed "s%MiSTer-DB9%MiSTer-devel%g" <<< "${CORE_URL}")
+				DOMAIN_URL="MiSTer-devel"
 				BRANCH_NAME=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "${BRANCHES_URL}" | grep "branch-name" | head -n1 | sed 's/.*>\(.*\)<.*/\1/')
 			fi
 			RELEASES_URL="${CORE_URL}/file-list/${BRANCH_NAME}/releases"
 			;;
 	esac
+	[ "${SSH_CLIENT}" != "" ] && echo "URL: $CORE_URL"
 	RELEASES_HTML=""
 	RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}" 2> /dev/null)
-	if [[ "${RELEASES_HTML}" == "" ]] ; then
-		RELEASES_URL=$(sed "s%MiSTer-DB9%MiSTer-devel%g" <<< "${RELEASES_URL}")
-		DOMAIN_URL="MiSTer-devel"
-		RELEASES_HTML=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "${RELEASES_URL}")
-	fi
 	RELEASE_URLS=$(echo ${RELEASES_HTML} | grep -oE '/'${DOMAIN_URL}'/[a-zA-Z0-9./_-]*_[0-9]{8}[a-zA-Z]?(\.rbf|\.rar|\.zip)?')
 
 	CORE_HAS_MRA="false"
