@@ -568,7 +568,12 @@ function checkCoreURL {
 	# else
 	# 	RELEASES_URL=https://github.com$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "$CORE_URL" | grep -oi '/MiSTer-devel/[a-zA-Z0-9./_-]*/tree/[a-zA-Z0-9./_-]*/releases' | head -n1)
 	# fi
-	BRANCH_NAME=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "${CORE_URL}/branches" | grep "branch-name" | head -n1 | sed 's/.*>\(.*\)<.*/\1/')
+	BRANCHES_URL="${CORE_URL}/branches"
+	BRANCH_NAME=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "${BRANCHES_URL}" | grep "branch-name" | head -n1 | sed 's/.*>\(.*\)<.*/\1/' 2> /dev/null)
+	if [[ "${BRANCH_NAME}" == "" ]] ; then
+		BRANCHES_URL=$(sed "s%MiSTer-DB9%MiSTer-devel%g" <<< "${BRANCHES_URL}")
+		BRANCH_NAME=$(curl $CURL_RETRY $SSL_SECURITY_OPTION -sSLf "${BRANCHES_URL}" | grep "branch-name" | head -n1 | sed 's/.*>\(.*\)<.*/\1/')
+	fi
 	case "$CORE_URL" in
 		*SD-Installer*)
 			RELEASES_URL="$CORE_URL"
