@@ -17,23 +17,23 @@ while true ; do
     ALL_REPOSITORIES+=( ${PAGE_REPOSITORIES[@]} )
 done
 
-DB_FILE_RESULT="./.github/cores_db.txt"
-DB_FILE_TMP="./.github/cores_db.txt.tmp"
+DB_FILE="./.github/cores_db.txt.tmp"
 
-rm -f "${DB_FILE_TMP}" || true
+rm -f "${DB_FILE}" || true
 for line in "${ALL_REPOSITORIES[@]} "
 do
-   echo "${line}" >> "${DB_FILE_TMP}"
+   echo "${line}" >> "${DB_FILE}"
 done
 
 echo "DB Content:"
-cat "${DB_FILE_TMP}"
+cat "${DB_FILE}"
 echo
 echo "Total cores: ${#ALL_REPOSITORIES[@]}"
 echo
-if diff -q "${DB_FILE_TMP}" "${DB_FILE_RESULT}" ; then
-    mv "${DB_FILE_TMP}" "${DB_FILE_RESULT}"
-    git add "${DB_FILE_TMP}"
+
+git add "${DB_FILE}"
+
+if ! git diff --staged --quiet --exit-code ; then
     git commit -m "BOT: Cores DB updated."
     git push origin master
 else
