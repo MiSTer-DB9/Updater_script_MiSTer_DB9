@@ -17,7 +17,7 @@ while true ; do
     ALL_REPOSITORIES+=( ${PAGE_REPOSITORIES[@]} )
 done
 
-DB_FILE="./.github/cores_db.txt.tmp"
+DB_FILE="./.github/cores_db.txt"
 
 rm -f "${DB_FILE}" || true
 for line in "${ALL_REPOSITORIES[@]} "
