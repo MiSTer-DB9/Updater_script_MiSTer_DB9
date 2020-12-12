@@ -1,6 +1,9 @@
 name: Create Cores DB
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron:  '*/10 * * * *'
 
