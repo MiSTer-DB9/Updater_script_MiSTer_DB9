@@ -31,6 +31,9 @@ echo
 echo "Total cores: ${#ALL_REPOSITORIES[@]}"
 echo
 
+git config --global user.email "theypsilon@gmail.com"
+git config --global user.name "The CI/CD Bot"
+
 git add "${DB_FILE}"
 
 if ! git diff --staged --quiet --exit-code ; then
