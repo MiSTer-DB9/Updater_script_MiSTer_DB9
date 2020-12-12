@@ -26,10 +26,12 @@ do
    echo "${line}" >> "${DB_FILE_TMP}"
 done
 
+echo "DB Content:"
 cat "${DB_FILE_TMP}"
-echo "TOTAL: ${#ALL_REPOSITORIES[@]}"
-
-if diff "${DB_FILE_TMP}" "${DB_FILE_RESULT}" ; then
+echo
+echo "Total cores: ${#ALL_REPOSITORIES[@]}"
+echo
+if diff -q "${DB_FILE_TMP}" "${DB_FILE_RESULT}" ; then
     mv "${DB_FILE_TMP}" "${DB_FILE_RESULT}"
     git add "${DB_FILE_TMP}"
     git commit -m "BOT: Cores DB updated."
