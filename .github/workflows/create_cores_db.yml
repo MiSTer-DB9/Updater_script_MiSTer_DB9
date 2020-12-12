@@ -1,0 +1,15 @@
+name: Create Cores DB
+
+on:
+  schedule:
+    - cron:  '*/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Create Cores DB
+      run: ./.github/create_cores_db.sh
