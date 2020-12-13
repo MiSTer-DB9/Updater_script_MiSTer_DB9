@@ -17,13 +17,17 @@ while true ; do
     ALL_REPOSITORIES+=( ${PAGE_REPOSITORIES[@]} )
 done
 
-DB_FILE="./.github/cores_db.txt"
+DB_FILE=${DB_FILE:-"./.github/cores_db.txt"}
 
-rm -f "${DB_FILE}" || true
+echo -n "" > "${DB_FILE}"
 for line in "${ALL_REPOSITORIES[@]} "
 do
    echo "${line}" >> "${DB_FILE}"
 done
+
+if [[ "${1:-}" == "--early-exit" ]] ; then
+    exit 0
+fi
 
 echo "DB Content:"
 cat "${DB_FILE}"
