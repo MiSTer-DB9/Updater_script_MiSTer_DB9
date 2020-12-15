@@ -40,9 +40,9 @@ Arcade-LunarLander_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-LunarL
 Arcade-MarioBros_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MarioBros_MiSTer|master|2020-11-08T16:23:40Z
 Arcade-MCR1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR1_MiSTer|master|2020-12-15T00:56:18Z
 Arcade-MCR2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR2_MiSTer|master|2020-12-15T01:12:02Z
-Arcade-MCR3Mono_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3Mono_MiSTer|master|2020-12-15T12:28:17Z
+Arcade-MCR3Mono_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3Mono_MiSTer|master|2020-12-15T20:25:27Z
 Arcade-MCR3Scroll_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3Scroll_MiSTer|master|2020-12-15T18:30:07Z
-Arcade-MCR3_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3_MiSTer|master|2020-12-15T12:27:36Z
+Arcade-MCR3_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3_MiSTer|master|2020-12-15T20:25:07Z
 Arcade-MoonPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MoonPatrol_MiSTer|master|2020-11-08T16:21:36Z
 Arcade-NinjaKun_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-NinjaKun_MiSTer|master|2020-11-08T16:16:59Z
 Arcade-Pacman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pacman_MiSTer|master|2020-11-08T16:17:04Z
