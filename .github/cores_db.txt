@@ -38,7 +38,7 @@ Arcade-IremM62_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-IremM62_Mi
 Arcade-LadyBug_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-LadyBug_MiSTer|master|2020-11-08T16:21:29Z
 Arcade-LunarLander_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-LunarLander_MiSTer|master|2020-11-08T16:21:32Z
 Arcade-MarioBros_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MarioBros_MiSTer|master|2020-11-08T16:23:40Z
-Arcade-MCR1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR1_MiSTer|master|2020-12-15T23:35:32Z
+Arcade-MCR1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR1_MiSTer|master|2020-12-16T00:16:27Z
 Arcade-MCR2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR2_MiSTer|master|2020-12-15T23:44:37Z
 Arcade-MCR3Mono_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3Mono_MiSTer|master|2020-12-15T20:25:27Z
 Arcade-MCR3Scroll_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3Scroll_MiSTer|master|2020-12-15T18:30:07Z
