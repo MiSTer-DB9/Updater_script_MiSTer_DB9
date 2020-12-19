@@ -6,7 +6,7 @@ Apple-II_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Apple-II_MiSTer|master|
 Aquarius_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Aquarius_MISTer|master|2020-11-08T16:22:23Z
 Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer|master|2020-12-02T12:08:43Z
 Arcade-AsteroidsDeluxe_Mister|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister|master|2020-11-08T16:20:40Z
-Arcade-Asteroids_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer|master|2020-11-08T16:20:36Z
+Arcade-Asteroids_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer|master|2020-12-19T00:47:15Z
 Arcade-Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Astrocade_MiSTer|master|2020-11-08T16:20:15Z
 Arcade-ATetris_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ATetris_MiSTer|master|2020-11-08T16:15:46Z
 Arcade-Bagman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Bagman_MiSTer|master|2020-11-08T16:20:45Z
@@ -16,7 +16,7 @@ Arcade-BombJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BombJack_
 Arcade-BurgerTime_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurgerTime_MiSTer|master|2020-11-08T16:20:48Z
 Arcade-BurningRubber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurningRubber_MiSTer|master|2020-11-08T16:20:52Z
 Arcade-CanyonBomber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CanyonBomber_MiSTer|master|2020-11-08T16:20:55Z
-Arcade-Centipede_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Centipede_MiSTer|master|2020-12-18T23:45:23Z
+Arcade-Centipede_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Centipede_MiSTer|master|2020-12-19T00:29:19Z
 Arcade-ComputerSpace_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ComputerSpace_MiSTer|master|2020-11-08T16:20:58Z
 Arcade-CosmicAvenger_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CosmicAvenger_MiSTer|master|2020-11-08T16:21:01Z
 Arcade-CrazyBalloon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyBalloon_MiSTer|master|2020-11-08T16:23:37Z
@@ -52,7 +52,7 @@ Arcade-Pleiads_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pleiads_Mi
 Arcade-Pong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pong_MiSTer|master|2020-11-23T13:32:46Z
 Arcade-Pooyan_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pooyan_MiSTer|master|2020-11-08T16:21:53Z
 Arcade-Popeye_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Popeye_MiSTer|master|2020-11-08T16:17:09Z
-Arcade-RallyX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RallyX_MiSTer|master|2020-11-08T16:17:12Z
+Arcade-RallyX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RallyX_MiSTer|master|2020-12-19T00:35:33Z
 Arcade-RiverPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RiverPatrol_MiSTer|master|2020-11-08T16:21:56Z
 Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_MiSTer|master|2020-11-08T16:17:16Z
 Arcade-RushnAttack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer|master|2020-11-08T16:17:20Z
