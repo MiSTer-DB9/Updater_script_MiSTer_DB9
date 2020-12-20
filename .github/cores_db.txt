@@ -15,7 +15,7 @@ Arcade-BlackWidow_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BlackWi
 Arcade-BombJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BombJack_MiSTer|master|2020-11-08T16:15:57Z
 Arcade-BurgerTime_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurgerTime_MiSTer|master|2020-11-08T16:20:48Z
 Arcade-BurningRubber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurningRubber_MiSTer|master|2020-11-08T16:20:52Z
-Arcade-CanyonBomber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CanyonBomber_MiSTer|master|2020-11-08T16:20:55Z
+Arcade-CanyonBomber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CanyonBomber_MiSTer|master|2020-12-20T23:49:20Z
 Arcade-Centipede_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Centipede_MiSTer|master|2020-12-19T00:29:19Z
 Arcade-ComputerSpace_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ComputerSpace_MiSTer|master|2020-11-08T16:20:58Z
 Arcade-CosmicAvenger_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CosmicAvenger_MiSTer|master|2020-11-08T16:21:01Z
