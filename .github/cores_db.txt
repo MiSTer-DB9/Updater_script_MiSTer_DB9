@@ -62,6 +62,7 @@ Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_
 Arcade-SilverLand_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SilverLand_MiSTer|master|2020-11-08T16:22:00Z
 Arcade-SnapJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SnapJack_MiSTer|master|2020-11-08T16:22:03Z
 Arcade-SolomonsKey_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SolomonsKey_MiSTer|master|2020-11-08T16:17:36Z
+Arcade-SpaceInvaders_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SpaceInvaders_MiSTer|master|2020-12-27T07:52:18Z
 Arcade-Sprint1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Sprint1_MiSTer|master|2020-12-14T01:44:41Z
 Arcade-Sprint2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Sprint2_MiSTer|master|2020-12-14T01:43:37Z
 Arcade-SuperBreakout_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SuperBreakout_MiSTer|master|2020-12-14T01:56:02Z
