@@ -57,7 +57,7 @@ Arcade-RiverPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RiverP
 Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_MiSTer|master|2020-12-28T01:04:53Z
 Arcade-RushnAttack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer|master|2020-12-28T01:39:36Z
 Arcade-Rygar_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Rygar_MiSTer|master|2020-06-15T15:22:37Z
-Arcade-Scramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Scramble_MiSTer|master|2020-12-28T01:39:42Z
+Arcade-Scramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Scramble_MiSTer|master|2021-01-01T20:20:26Z
 Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2020-12-10T03:12:00Z
 Arcade-SilverLand_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SilverLand_MiSTer|master|2020-12-28T01:09:22Z
 Arcade-SnapJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SnapJack_MiSTer|master|2020-12-28T01:09:26Z
