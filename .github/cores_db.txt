@@ -93,7 +93,7 @@ jtframe|MiSTer-DB9|https://github.com/MiSTer-DB9/jtframe|master|2020-03-06T15:46
 jt_gng|MiSTer-DB9|https://github.com/MiSTer-DB9/jt_gng|stable|2020-03-06T15:35:41Z
 Jupiter_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Jupiter_MiSTer|master|2020-12-28T01:10:04Z
 Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|2020-12-28T01:11:10Z
-Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2020-12-28T01:10:56Z
+Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2021-01-03T14:27:02Z
 MegaCD_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MegaCD_MiSTer|master|2020-12-28T01:07:21Z
 Menu_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Menu_MiSTer|master|2020-12-28T01:07:30Z
 Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2020-12-28T01:05:45Z
