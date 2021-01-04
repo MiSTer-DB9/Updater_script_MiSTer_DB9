@@ -1,4 +1,4 @@
-AliceMC10_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AliceMC10_MiSTer|master|2021-01-04T17:50:25Z
+AliceMC10_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AliceMC10_MiSTer|master|2021-01-04T20:58:29Z
 Amstrad-PCW_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad-PCW_MiSTer|master|2021-01-04T17:50:25Z
 Amstrad_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad_MiSTer|master|2021-01-04T17:50:25Z
 ao486_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ao486_MiSTer|master|2021-01-04T17:50:26Z
@@ -58,7 +58,7 @@ Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_
 Arcade-RushnAttack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Rygar_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Rygar_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Scramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Scramble_MiSTer|master|2021-01-04T17:50:31Z
-Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2021-01-04T19:09:22Z
+Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2021-01-04T20:58:34Z
 Arcade-SilverLand_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SilverLand_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-SnapJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SnapJack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-SolomonsKey_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SolomonsKey_MiSTer|master|2021-01-04T17:50:31Z
