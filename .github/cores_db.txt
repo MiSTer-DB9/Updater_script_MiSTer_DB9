@@ -58,7 +58,7 @@ Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_
 Arcade-RushnAttack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Rygar_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Rygar_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Scramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Scramble_MiSTer|master|2021-01-04T17:50:31Z
-Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2021-01-04T17:50:31Z
+Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2021-01-04T19:09:22Z
 Arcade-SilverLand_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SilverLand_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-SnapJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SnapJack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-SolomonsKey_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SolomonsKey_MiSTer|master|2021-01-04T17:50:31Z
@@ -86,7 +86,7 @@ C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-01-04
 ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer|master|2021-01-04T17:50:34Z
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-01-04T17:50:34Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-01-04T17:50:34Z
-Forks_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Forks_MiSTer|master|2021-01-04T18:59:29Z
+Forks_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Forks_MiSTer|master|2021-01-04T19:21:47Z
 Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-01-04T17:50:34Z
 GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-01-04T17:50:34Z
 Genesis_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Genesis_MiSTer|master|2021-01-04T17:50:34Z
