@@ -106,7 +106,7 @@ NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-01-04
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-01-04T17:50:36Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-01-04T17:50:36Z
 SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-01-04T17:50:37Z
-SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-01-04T17:50:37Z
+SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-01-05T19:06:00Z
 SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-01-04T17:50:37Z
 Template_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Template_MiSTer|master|2021-01-04T17:50:37Z
 TI-99_4A_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TI-99_4A_MiSTer|master|2021-01-04T17:50:37Z
