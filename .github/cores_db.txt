@@ -29,7 +29,7 @@ Arcade-DonkeyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DonkeyK
 Arcade-Dorodon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Dorodon_MiSTer|master|2021-01-04T17:50:28Z
 Arcade-Druaga_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Druaga_MiSTer|master|2021-01-04T17:50:28Z
 Arcade-FoodFight_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-FoodFight_MiSTer|master|2021-01-04T17:50:28Z
-Arcade-Frenzy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Frenzy_MiSTer|master|2021-01-08T21:40:19Z
+Arcade-Frenzy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Frenzy_MiSTer|master|2021-01-08T21:57:58Z
 Arcade-Galaga_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Galaga_MiSTer|master|2021-01-04T17:50:28Z
 Arcade-Galaxian_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Galaxian_MiSTer|master|2021-01-04T17:50:29Z
 Arcade-Gaplus_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Gaplus_MiSTer|master|2021-01-04T17:50:29Z
@@ -87,7 +87,7 @@ ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-01-04T17:50:34Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-01-04T17:50:34Z
 Forks_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Forks_MiSTer|master|2021-01-05T00:20:35Z
-Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-01-08T21:32:22Z
+Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-01-08T22:01:44Z
 GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-01-04T17:50:34Z
 Genesis_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Genesis_MiSTer|master|2021-01-05T12:53:42Z
 jtframe|MiSTer-DB9|https://github.com/MiSTer-DB9/jtframe|master|2021-01-04T17:50:35Z
