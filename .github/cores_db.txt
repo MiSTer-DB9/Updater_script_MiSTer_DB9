@@ -58,7 +58,7 @@ Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_
 Arcade-RushnAttack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Rygar_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Rygar_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Scramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Scramble_MiSTer|master|2021-01-04T17:50:31Z
-Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2021-01-04T21:12:36Z
+Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2021-01-09T12:33:48Z
 Arcade-SilverLand_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SilverLand_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-SnapJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SnapJack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-SolomonsKey_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SolomonsKey_MiSTer|master|2021-01-04T17:50:31Z
