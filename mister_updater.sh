@@ -443,7 +443,7 @@ ERROR_CORES_FILE=$(mktemp)
 UPDATED_ADDITIONAL_REPOSITORIES_FILE=$(mktemp)
 ERROR_ADDITIONAL_REPOSITORIES_FILE=$(mktemp)
 
-[ "${UPDATE_LINUX}" == "true" ] && SD_INSTALLER_URL="https://github.com/MiSTer-devel/SD-Installer-Win64_MiSTer"
+[ "${UPDATE_LINUX}" == "true" ] && SD_INSTALLER_URL="https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer"
 
 echo "Downloading MiSTer Wiki structure"
 echo ""
