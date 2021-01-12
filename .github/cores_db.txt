@@ -83,7 +83,7 @@ AY-3-8500-MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AY-3-8500-MiSTer|maste
 BBCMicro_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/BBCMicro_MiSTer|master|2021-01-04T17:50:33Z
 C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-01-04T17:50:33Z
 C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-01-04T17:50:34Z
-ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer|master|2021-01-12T18:22:20Z
+ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer|master|2021-01-12T18:38:15Z
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-01-04T17:50:34Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-01-04T17:50:34Z
 Forks_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Forks_MiSTer|master|2021-01-05T00:20:35Z
