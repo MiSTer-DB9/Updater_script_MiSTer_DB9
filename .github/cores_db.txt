@@ -17,7 +17,7 @@ Arcade-BurgerTime_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurgerT
 Arcade-BurningRubber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurningRubber_MiSTer|master|2021-01-04T17:50:27Z
 Arcade-CanyonBomber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CanyonBomber_MiSTer|master|2021-01-04T17:50:27Z
 Arcade-Centipede_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Centipede_MiSTer|master|2021-01-04T17:50:27Z
-Arcade-ComputerSpace_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ComputerSpace_MiSTer|master|2021-01-13T00:02:22Z
+Arcade-ComputerSpace_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ComputerSpace_MiSTer|master|2021-01-13T22:41:16Z
 Arcade-CosmicAvenger_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CosmicAvenger_MiSTer|master|2021-01-04T17:50:27Z
 Arcade-CrazyBalloon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyBalloon_MiSTer|master|2021-01-04T17:50:27Z
 Arcade-CrazyClimber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyClimber_MiSTer|master|2021-01-04T17:50:27Z
@@ -36,7 +36,7 @@ Arcade-Gaplus_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Gaplus_MiST
 Arcade-GnG_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-GnG_MiSTer|master|2021-01-04T17:50:29Z
 Arcade-IremM62_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-IremM62_MiSTer|master|2021-01-04T17:50:29Z
 Arcade-LadyBug_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-LadyBug_MiSTer|master|2021-01-04T17:50:29Z
-Arcade-LunarLander_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-LunarLander_MiSTer|master|2021-01-04T17:50:29Z
+Arcade-LunarLander_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-LunarLander_MiSTer|master|2021-01-13T22:47:18Z
 Arcade-MarioBros_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MarioBros_MiSTer|master|2021-01-04T17:50:29Z
 Arcade-MCR1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR1_MiSTer|master|2021-01-04T17:50:29Z
 Arcade-MCR2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR2_MiSTer|master|2021-01-04T17:50:29Z
@@ -53,7 +53,7 @@ Arcade-Pong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pong_MiSTer|m
 Arcade-Pooyan_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pooyan_MiSTer|master|2021-01-04T17:50:30Z
 Arcade-Popeye_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Popeye_MiSTer|master|2021-01-04T17:50:30Z
 Arcade-RallyX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RallyX_MiSTer|master|2021-01-04T17:50:31Z
-Arcade-RiverPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RiverPatrol_MiSTer|master|2021-01-04T17:50:31Z
+Arcade-RiverPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RiverPatrol_MiSTer|master|2021-01-13T22:40:08Z
 Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_MiSTer|master|2021-01-05T12:34:33Z
 Arcade-RushnAttack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Rygar_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Rygar_MiSTer|master|2021-01-04T17:50:31Z
