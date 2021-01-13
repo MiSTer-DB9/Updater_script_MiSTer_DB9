@@ -42,7 +42,7 @@ Arcade-MCR1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR1_MiSTer|m
 Arcade-MCR2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR2_MiSTer|master|2021-01-04T17:50:29Z
 Arcade-MCR3Mono_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3Mono_MiSTer|master|2021-01-04T17:50:29Z
 Arcade-MCR3Scroll_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3Scroll_MiSTer|master|2021-01-12T11:01:46Z
-Arcade-MCR3_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3_MiSTer|master|2021-01-04T17:50:30Z
+Arcade-MCR3_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MCR3_MiSTer|master|2021-01-13T01:24:08Z
 Arcade-MoonPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MoonPatrol_MiSTer|master|2021-01-04T17:50:30Z
 Arcade-NinjaKun_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-NinjaKun_MiSTer|master|2021-01-04T17:50:30Z
 Arcade-Pacman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pacman_MiSTer|master|2021-01-04T17:50:30Z
