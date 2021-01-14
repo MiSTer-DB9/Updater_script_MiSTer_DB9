@@ -93,7 +93,6 @@ NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021
 NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-01-14T19:26:54Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-01-04T17:50:36Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-01-04T17:50:36Z
-SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-10T20:07:26Z
 SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-01-05T19:06:00Z
 SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-01-04T17:50:37Z
 TomyScramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TomyScramble_MiSTer|master|2021-01-04T17:50:37Z
