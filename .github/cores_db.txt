@@ -26,7 +26,7 @@ Arcade-CrazyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyKon
 Arcade-Defender_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Defender_MiSTer|master|2021-01-04T17:50:28Z
 Arcade-DigDug_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DigDug_MiSTer|master|2021-01-04T17:50:28Z
 Arcade-Dominos_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Dominos_MiSTer|master|2021-01-04T17:50:28Z
-Arcade-DonkeyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DonkeyKong_MiSTer|master|2021-01-14T11:59:21Z
+Arcade-DonkeyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DonkeyKong_MiSTer|master|2021-01-14T12:18:17Z
 Arcade-Dorodon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Dorodon_MiSTer|master|2021-01-04T17:50:28Z
 Arcade-Druaga_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Druaga_MiSTer|master|2021-01-04T17:50:28Z
 Arcade-FoodFight_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-FoodFight_MiSTer|master|2021-01-04T17:50:28Z
