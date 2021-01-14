@@ -24,7 +24,7 @@ do
     declare -n fork="${i}"
     CORES+=("${fork[release_core_name]}")
 done
-CORES+=("SD-Installer-Win64")
+#CORES+=("SD-Installer-Win64")
 CORES_COMPARE_STRING=" ${CORES[@]^^} "
 
 ALL_REPOSITORIES=()
