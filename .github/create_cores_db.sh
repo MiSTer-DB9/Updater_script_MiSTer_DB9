@@ -25,6 +25,7 @@ do
     CORES+=("${fork[release_core_name]}")
 done
 CORES+=("SD-Installer-Win64")
+CORES_COMPARE_STRING=" ${CORES[@]^^} "
 
 ALL_REPOSITORIES=()
 API_PAGE=0
@@ -43,7 +44,7 @@ for line in "${ALL_REPOSITORIES[@]} "
 do
     START_LINE="${line%%|*}"
     CORE_NAME="${START_LINE^^}"
-    if [[ " ${CORES[@]} " =~ " ${CORE_NAME%%[^\s]MISTER} " ]]; then
+    if [[ "${CORES_COMPARE_STRING}" =~ " ${CORE_NAME%%[^\s]MISTER} " ]]; then
         echo "${line}" >> "${DB_FILE}"
     fi
 done
