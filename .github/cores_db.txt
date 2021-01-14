@@ -1,1 +1,12 @@
-SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-10T20:07:26Z
+AY-3-8500-MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AY-3-8500-MiSTer|master|2021-01-04T17:50:33Z
+C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-01-04T17:50:33Z
+C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-01-04T17:50:34Z
+GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-01-04T17:50:34Z
+MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-01-04T17:50:36Z
+NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-01-14T19:26:54Z
+QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-01-04T17:50:36Z
+SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-01-05T19:06:00Z
+SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-01-04T17:50:37Z
+TRS-80_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TRS-80_MiSTer|master|2021-01-04T17:50:37Z
+VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-01-04T17:50:38Z
+ZX81_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX81_MiSTer|master|2021-01-04T17:50:38Z 
