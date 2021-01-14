@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copyright (c) 2020 José Manuel Barroso Galindo <theypsilon@gmail.com>
 
-set -xeuo pipefail
+set -euo pipefail
 
 CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5"
 SSL_SECURITY_OPTION=""
@@ -24,7 +24,7 @@ do
     declare -n fork="${i}"
     CORES+=("${fork[release_core_name]}")
 done
-CORES+=("SD-Installer-Win64_MiSTer")
+CORES+=("SD-Installer-Win64")
 
 ALL_REPOSITORIES=()
 API_PAGE=0
@@ -41,8 +41,9 @@ DB_FILE=${DB_FILE:-"./.github/cores_db.txt"}
 echo -n "" > "${DB_FILE}"
 for line in "${ALL_REPOSITORIES[@]} "
 do
-    CORE_NAME="${line%%|*}"
-    if [[ " ${CORES[@]} " =~ " ${CORE_NAME} " ]]; then
+    START_LINE="${line%%|*}"
+    CORE_NAME="${START_LINE^^}"
+    if [[ " ${CORES[@]} " =~ " ${CORE_NAME%%[^\s]MISTER} " ]]; then
         echo "${line}" >> "${DB_FILE}"
     fi
 done
