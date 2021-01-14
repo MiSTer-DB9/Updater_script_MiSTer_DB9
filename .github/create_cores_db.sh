@@ -8,7 +8,7 @@ SSL_SECURITY_OPTION=""
 MISTER_DEVEL_REPOS_URL="https://api.github.com/users/mister-db9/repos"
 FORKS_INI_URL="https://raw.githubusercontent.com/MiSTer-DB9/Forks_MiSTer/master/Forks.ini"
 
-source <(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} "${FORKS_INI_URL}" | python -c "
+source <(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} "${FORKS_INI_URL}" 2> /dev/null | python -c "
 import sys, ConfigParser
 config = ConfigParser.ConfigParser()
 config.readfp(sys.stdin)
