@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copyright (c) 2020 José Manuel Barroso Galindo <theypsilon@gmail.com>
 
-set -xeuo pipefail
+set -euo pipefail
 
 CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5"
 SSL_SECURITY_OPTION=""
@@ -22,7 +22,8 @@ declare -a CORES
 for i in ${Forks[syncing_forks]}
 do
     declare -n fork="${i}"
-    CORES+=("${fork[release_core_name]}")
+    CORE_NAME="${fork[release_core_name]}"
+    CORES+=("${CORE_NAME}")
 done
 #CORES+=("SD-Installer-Win64")
 CORES_COMPARE_STRING=" ${CORES[@]^^} "
@@ -44,7 +45,7 @@ for line in "${ALL_REPOSITORIES[@]} "
 do
     START_LINE="${line%%|*}"
     CORE_NAME="${START_LINE^^}"
-    if [[ "${CORE_NAME}" == "MISTER" ]] || [[ "${CORES_COMPARE_STRING}" =~ " ${CORE_NAME%%[^\s]MISTER} " ]]; then
+    if [[ "${CORE_NAME}" == "MAIN_MISTER" ]] || [[ "${CORES_COMPARE_STRING}" =~ " ${CORE_NAME%%[^\s]MISTER} " ]]; then
         echo "${line}" >> "${DB_FILE}"
     fi
 done
