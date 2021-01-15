@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Copyright (c) 2020 José Manuel Barroso Galindo <theypsilon@gmail.com>
 
-set -euo pipefail
+set -xeuo pipefail
 
 CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5"
 SSL_SECURITY_OPTION=""
