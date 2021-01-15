@@ -44,7 +44,7 @@ for line in "${ALL_REPOSITORIES[@]} "
 do
     START_LINE="${line%%|*}"
     CORE_NAME="${START_LINE^^}"
-    if [[ "${CORES_COMPARE_STRING}" =~ " ${CORE_NAME%%[^\s]MISTER} " ]]; then
+    if [[ "${CORE_NAME}" == "MISTER" ]] || [[ "${CORES_COMPARE_STRING}" =~ " ${CORE_NAME%%[^\s]MISTER} " ]]; then
         echo "${line}" >> "${DB_FILE}"
     fi
 done
