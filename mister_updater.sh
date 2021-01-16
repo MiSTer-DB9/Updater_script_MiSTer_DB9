@@ -537,7 +537,7 @@ done
 # @DB9 Begin
 declare -A CORE_HAS_DB9_SUPPORT
 if [[ "${CREATE_CORES_DB9_DB:-}" == "true" ]] ; then
-	CORES_DB9_DB_CONTENT=$(DB_FILE="/dev/stdout" ./.github/create_cores_db.sh --early-exit)
+	CORES_DB9_DB_CONTENT=$(DB_FILE="/dev/stdout" ./.github/create_cores_db.sh -qe)
 else
 	CORES_DB9_DB_CONTENT=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://raw.githubusercontent.com/theypsilon/Updater_script_MiSTer_DB9/master/.github/cores_db.txt?$(date +%s)")
 fi
