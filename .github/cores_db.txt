@@ -7,6 +7,7 @@ Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_
 Arcade-AsteroidsDeluxe_Mister|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister|master|2021-01-04T17:50:26Z
 Arcade-Asteroids_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer|master|2021-01-04T17:50:26Z
 Arcade-Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Astrocade_MiSTer|master|2021-01-04T17:50:26Z
+Arcade-ATetris_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ATetris_MiSTer|master|2021-01-04T17:50:26Z
 Arcade-Bagman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Bagman_MiSTer|master|2021-01-15T21:36:43Z
 Arcade-Berzerk_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Berzerk_MiSTer|master|2021-01-16T03:38:41Z
 Arcade-BlackWidow_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BlackWidow_MiSTer|master|2021-01-04T17:50:26Z
@@ -53,6 +54,7 @@ Arcade-Popeye_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Popeye_MiST
 Arcade-RallyX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RallyX_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-RiverPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RiverPatrol_MiSTer|master|2021-01-13T22:56:36Z
 Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_MiSTer|master|2021-01-05T12:34:33Z
+Arcade-RushnAttack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-Scramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Scramble_MiSTer|master|2021-01-04T17:50:31Z
 Arcade-SEGASYS1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer|main|2021-01-09T12:33:48Z
 Arcade-SilverLand_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SilverLand_MiSTer|master|2021-01-13T23:11:42Z
@@ -80,6 +82,7 @@ BBCMicro_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/BBCMicro_MiSTer|master|
 C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-01-04T17:50:33Z
 C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-01-04T17:50:34Z
 ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer|master|2021-01-12T18:38:15Z
+EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-01-04T17:50:34Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-01-04T17:50:34Z
 Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-01-08T22:01:44Z
 GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-01-04T17:50:34Z
@@ -89,13 +92,17 @@ Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|
 Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2021-01-15T09:23:10Z
 MegaCD_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MegaCD_MiSTer|master|2021-01-04T17:50:35Z
 Menu_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Menu_MiSTer|master|2021-01-04T17:50:35Z
+Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2021-01-15T18:27:09Z
+MiSTer-Arcade-Gyruss|MiSTer-DB9|https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss|master|2021-01-04T17:50:35Z
 MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-01-04T17:50:36Z
 NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-01-14T17:18:19Z
 NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-01-14T19:26:54Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-01-04T17:50:36Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-01-04T17:50:36Z
+SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-01-04T17:50:37Z
 SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-01-05T19:06:00Z
 SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-01-04T17:50:37Z
+TI-99_4A_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TI-99_4A_MiSTer|master|2021-01-04T17:50:37Z
 TomyScramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TomyScramble_MiSTer|master|2021-01-04T17:50:37Z
 TRS-80_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TRS-80_MiSTer|master|2021-01-04T17:50:37Z
 TSConf_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TSConf_MiSTer|master|2021-01-04T17:50:37Z
