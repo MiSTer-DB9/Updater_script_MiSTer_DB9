@@ -56,7 +56,7 @@ do
     TMP="${UPSTREAM_REPO##*/}"
     CORES+=("${TMP%.git}")
 done
-#CORES+=("SD-Installer-Win64_MiSTer")
+CORES+=("SD-Installer-Win64_MiSTer")
 
 API_RESPONSE_SAVE_FILE="${API_RESPONSE_SAVE_FILE:-github_api.txt}"
 if [[ "${SAVE_API_RESPONSE}" == "true" ]] ; then

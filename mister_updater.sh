@@ -775,7 +775,7 @@ function checkCoreURL {
 		fi
 	fi
 	
-	if [[ "$MAX_VERSION" > "$MAX_LOCAL_VERSION" ]] || { [[ "${FIRST_TIME_DB9}" == "true" ]] && ! [[ "${CORE_URL}" =~ SD-Installer ]] ; }
+	if [[ "$MAX_VERSION" > "$MAX_LOCAL_VERSION" ]] || [[ "${FIRST_TIME_DB9}" == "true" ]]
 	then
 		#if [ "$DOWNLOAD_NEW_CORES" != "false" ] || [ "$MAX_LOCAL_VERSION" != "" ] || [ "$BASE_FILE_NAME" == "MiSTer" ] || [ "$BASE_FILE_NAME" == "menu" ] || { echo "$CORE_URL" | grep -qE "SD-Installer|Filters_MiSTer"; }
 		if [ "$DOWNLOAD_NEW_CORES" != "false" ] || [ "$MAX_LOCAL_VERSION" != "" ] || [ "$BASE_FILE_NAME" == "MiSTer" ] || [ "$BASE_FILE_NAME" == "menu" ] || [[ "${CORE_URL}" =~ SD-Installer|Filters_MiSTer|MRA-Alternatives_MiSTer ]]
