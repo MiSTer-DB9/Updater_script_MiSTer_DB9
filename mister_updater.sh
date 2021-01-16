@@ -14,11 +14,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Copyright 2018-2020 Alessandro "Locutus73" Miele
-# DB9 Fork by MiSTer-DB9 Team 2019-2020
-# DB9 Updater Fork from 'theypsilon' 2020
+# DB9 Fork by MiSTer-DB9 Team 2019-2021
+# DB9 Updater Fork from 'theypsilon' 2020-21
 
 # You can download the latest version of this script from:
-# https://github.com/theypsilon/Updater_script_MiSTer_DB9
+# https://github.com/MiSTer-DB9/Updater_script_MiSTer_DB9
 
 
 
@@ -301,11 +301,11 @@ case $? in
 esac
 if [ "$SSL_SECURITY_OPTION" == "" ]
 then
-	if [ "$(grep -v "^#" "${ORIGINAL_SCRIPT_PATH}")" == "curl $CURL_RETRY -ksLf https://github.com/theypsilon/Updater_script_MiSTer_DB9/blob/master/mister_updater.sh?raw=true | bash -" ]
+	if [ "$(grep -v "^#" "${ORIGINAL_SCRIPT_PATH}")" == "curl $CURL_RETRY -ksLf https://github.com/MiSTer-DB9/Updater_script_MiSTer_DB9/blob/master/mister_updater.sh?raw=true | bash -" ]
 	then
 		echo "Downloading $(sed 's/.*\///' <<< "${ORIGINAL_SCRIPT_PATH}")"
 		echo ""
-		curl $CURL_RETRY $SSL_SECURITY_OPTION -L "https://github.com/theypsilon/Updater_script_MiSTer_DB9/blob/master/update.sh?raw=true" -o "$ORIGINAL_SCRIPT_PATH"
+		curl $CURL_RETRY $SSL_SECURITY_OPTION -L "https://github.com/MiSTer-DB9/Updater_script_MiSTer_DB9/blob/master/update.sh?raw=true" -o "$ORIGINAL_SCRIPT_PATH"
 	fi
 fi
 
@@ -539,7 +539,7 @@ declare -A CORE_HAS_DB9_SUPPORT
 if [[ "${CREATE_CORES_DB9_DB:-}" == "true" ]] ; then
 	CORES_DB9_DB_CONTENT=$(DB_FILE="/dev/stdout" ./.github/create_cores_db.sh -qe)
 else
-	CORES_DB9_DB_CONTENT=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://raw.githubusercontent.com/theypsilon/Updater_script_MiSTer_DB9/master/.github/cores_db.txt?$(date +%s)")
+	CORES_DB9_DB_CONTENT=$(curl ${CURL_RETRY} ${SSL_SECURITY_OPTION} -sSLf "https://raw.githubusercontent.com/MiSTer-DB9/Updater_script_MiSTer_DB9/master/.github/cores_db.txt?$(date +%s)")
 fi
 for CORES_DB9_DB_LINE in ${CORES_DB9_DB_CONTENT} ; do
     IFS='|' read -r -a PARSED_DB_LINE <<< "${CORES_DB9_DB_LINE}"

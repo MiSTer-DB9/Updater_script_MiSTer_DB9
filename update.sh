@@ -14,11 +14,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Copyright 2019-2020 Alessandro "Locutus73" Miele
-# DB9 Fork by MiSTer-DB9 Team 2019-2020
-# DB9 Updater Fork from 'theypsilon' 2020
+# DB9 Fork by MiSTer-DB9 Team 2019-2021
+# DB9 Updater Fork from 'theypsilon' 2020-2021
 
 # You can download the latest version of this script from:
-# https://github.com/theypsilon/Updater_script_MiSTer_DB9
+# https://github.com/MiSTer-DB9/Updater_script_MiSTer_DB9
 
 # Version 2.1.3 - 2020-01-18 - Improved script output.
 # Version 2.1.2 - 2019-08-16 - Minor refactoring by frederic-mahe, thank you very much.
@@ -31,7 +31,7 @@
 
 # ========= OPTIONS ==================
 URL="https://github.com"
-SCRIPT_URL="${URL}/theypsilon/Updater_script_MiSTer_DB9/blob/master/mister_updater.sh"
+SCRIPT_URL="${URL}/MiSTer-DB9/Updater_script_MiSTer_DB9/blob/master/mister_updater.sh"
 CURL_RETRY="--connect-timeout 15 --max-time 120 --retry 3 --retry-delay 5 --silent --show-error"
 
 # ========= ADVANCED OPTIONS =========
