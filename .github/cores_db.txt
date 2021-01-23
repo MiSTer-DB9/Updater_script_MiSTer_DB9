@@ -1,6 +1,6 @@
 AliceMC10_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AliceMC10_MiSTer|master|2021-01-23T13:50:43Z
 Amstrad-PCW_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad-PCW_MiSTer|master|2021-01-23T13:50:25Z
-Amstrad_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad_MiSTer|master|2021-01-23T13:41:30Z
+Amstrad_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad_MiSTer|master|2021-01-23T17:13:38Z
 Apple-II_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Apple-II_MiSTer|master|2021-01-23T13:47:57Z
 Aquarius_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Aquarius_MISTer|master|2021-01-23T13:48:03Z
 Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer|master|2021-01-23T13:37:39Z
