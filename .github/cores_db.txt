@@ -76,7 +76,7 @@ Arduboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arduboy_MiSTer|master|20
 Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Astrocade_MiSTer|master|2021-01-23T13:49:10Z
 Atari2600_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari2600_MiSTer|master|2021-01-23T13:42:15Z
 Atari800_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari800_MiSTer|master|2021-01-04T17:50:33Z
-AtariST_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AtariST_MiSTer|master|2021-01-23T13:44:20Z
+AtariST_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AtariST_MiSTer|master|2021-01-23T21:02:05Z
 AY-3-8500-MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AY-3-8500-MiSTer|master|2021-01-23T13:49:16Z
 BBCMicro_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/BBCMicro_MiSTer|master|2021-01-23T13:48:10Z
 C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-01-23T13:48:15Z
