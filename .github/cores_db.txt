@@ -20,7 +20,7 @@ Arcade-ComputerSpace_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Comp
 Arcade-CosmicAvenger_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CosmicAvenger_MiSTer|master|2021-01-23T13:45:44Z
 Arcade-CrazyBalloon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyBalloon_MiSTer|master|2021-01-23T13:49:59Z
 Arcade-CrazyClimber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyClimber_MiSTer|master|2021-01-23T13:45:50Z
-Arcade-CrazyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyKong_MiSTer|master|2021-01-23T13:45:55Z
+Arcade-CrazyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyKong_MiSTer|master|2021-01-29T06:41:13Z
 Arcade-Defender_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Defender_MiSTer|master|2021-01-23T13:38:20Z
 Arcade-DigDug_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DigDug_MiSTer|master|2021-01-23T13:44:26Z
 Arcade-Dominos_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Dominos_MiSTer|master|2021-01-23T13:46:01Z
