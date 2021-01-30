@@ -110,6 +110,6 @@ TSConf_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TSConf_MiSTer|master|2021
 TurboGrafx16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TurboGrafx16_MiSTer|master|2021-01-23T13:49:35Z
 Vector-06C_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vector-06C_MiSTer|master|2021-01-23T13:48:58Z
 Vectrex_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vectrex_MiSTer|master|2021-01-23T13:43:47Z
-VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-01-23T13:48:21Z
+VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-01-30T14:44:51Z
 ZX-Spectrum_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer|master|2021-01-24T01:29:41Z
 ZX81_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX81_MiSTer|master|2021-01-23T13:49:03Z 
