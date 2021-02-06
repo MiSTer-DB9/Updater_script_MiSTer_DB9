@@ -99,7 +99,7 @@ NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021
 NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-01-23T13:43:00Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-02-05T08:35:12Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-01-23T13:48:45Z
-SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-01-23T13:48:39Z
+SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-02-06T16:47:44Z
 SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-16T13:20:55Z
 SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-01-23T13:43:26Z
 SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-01-23T13:43:10Z
@@ -108,7 +108,7 @@ TomyScramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TomyScramble_MiSTer
 TRS-80_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TRS-80_MiSTer|master|2021-01-23T13:48:27Z
 TSConf_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TSConf_MiSTer|master|2021-01-23T13:44:10Z
 TurboGrafx16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TurboGrafx16_MiSTer|master|2021-01-23T13:49:35Z
-Vector-06C_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vector-06C_MiSTer|master|2021-01-23T13:48:58Z
+Vector-06C_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vector-06C_MiSTer|master|2021-02-06T16:51:19Z
 Vectrex_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vectrex_MiSTer|master|2021-01-23T13:43:47Z
 VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-01-30T14:44:51Z
 ZX-Spectrum_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer|master|2021-02-05T16:50:08Z
