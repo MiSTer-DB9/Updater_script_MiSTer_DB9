@@ -89,7 +89,7 @@ GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-01-23
 Genesis_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Genesis_MiSTer|master|2021-01-23T13:43:18Z
 Jupiter_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Jupiter_MiSTer|master|2021-01-30T23:36:42Z
 Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|2021-01-23T13:50:19Z
-Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2021-01-23T13:49:43Z
+Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2021-02-07T06:24:10Z
 MegaCD_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MegaCD_MiSTer|master|2021-02-03T14:56:39Z
 Menu_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Menu_MiSTer|master|2021-01-27T16:44:03Z
 Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2021-01-23T13:41:24Z
