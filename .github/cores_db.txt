@@ -70,12 +70,12 @@ Arcade-Ultratank_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Ultratan
 Arcade-Xevious_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Xevious_MiSTer|master|2021-01-23T13:41:05Z
 Arcade-Zaxxon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Zaxxon_MiSTer|master|2021-01-23T13:44:32Z
 Arcade-ZigZag_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ZigZag_MiSTer|master|2021-01-23T13:47:52Z
-Archie_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Archie_MiSTer|master|2021-01-23T13:41:12Z
+Archie_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Archie_MiSTer|master|2021-02-24T16:57:40Z
 Arduboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arduboy_MiSTer|master|2021-01-23T13:49:22Z
 Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Astrocade_MiSTer|master|2021-01-23T13:49:10Z
 Atari2600_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari2600_MiSTer|master|2021-01-23T13:42:15Z
 Atari800_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari800_MiSTer|master|2021-01-04T17:50:33Z
-AtariST_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AtariST_MiSTer|master|2021-01-23T21:02:05Z
+AtariST_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AtariST_MiSTer|master|2021-02-24T17:02:40Z
 AY-3-8500-MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AY-3-8500-MiSTer|master|2021-02-06T00:36:28Z
 BBCMicro_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/BBCMicro_MiSTer|master|2021-01-29T10:54:54Z
 C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-02-17T16:54:15Z
@@ -91,7 +91,7 @@ Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|
 Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2021-02-22T16:32:27Z
 MegaCD_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MegaCD_MiSTer|master|2021-02-22T17:02:34Z
 Menu_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Menu_MiSTer|master|2021-02-22T16:40:25Z
-Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2021-01-23T13:41:24Z
+Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2021-02-24T17:02:24Z
 MiSTer-Arcade-Gyruss|MiSTer-DB9|https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss|master|2021-01-23T13:38:54Z
 MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-02-06T00:38:10Z
 NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-02-22T16:51:26Z
