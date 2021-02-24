@@ -10,7 +10,7 @@ Arcade-Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Astrocad
 Arcade-ATetris_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ATetris_MiSTer|master|2021-01-23T13:37:45Z
 Arcade-Bagman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Bagman_MiSTer|master|2021-01-23T13:44:53Z
 Arcade-Berzerk_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Berzerk_MiSTer|master|2021-01-23T13:37:58Z
-Arcade-BlackWidow_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BlackWidow_MiSTer|master|2021-02-24T03:14:28Z
+Arcade-BlackWidow_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BlackWidow_MiSTer|master|2021-02-24T03:32:14Z
 Arcade-BombJack_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BombJack_MiSTer|master|2021-02-17T16:32:28Z
 Arcade-BurgerTime_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurgerTime_MiSTer|master|2021-01-23T13:45:04Z
 Arcade-BurningRubber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-BurningRubber_MiSTer|master|2021-01-23T13:45:15Z
