@@ -45,7 +45,7 @@ Arcade-MoonPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-MoonPat
 Arcade-NinjaKun_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-NinjaKun_MiSTer|master|2021-01-23T13:39:38Z
 Arcade-Pacman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pacman_MiSTer|master|2021-02-14T14:14:30Z
 Arcade-Pengo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pengo_MiSTer|master|2021-01-23T13:46:48Z
-Arcade-Phoenix_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Phoenix_MiSTer|master|2021-01-23T13:46:54Z
+Arcade-Phoenix_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Phoenix_MiSTer|master|2021-02-27T18:50:55Z
 Arcade-Pleiads_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pleiads_MiSTer|master|2021-01-23T13:47:00Z
 Arcade-Pong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pong_MiSTer|master|2021-01-23T13:47:05Z
 Arcade-Pooyan_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pooyan_MiSTer|master|2021-01-23T13:47:11Z
@@ -98,7 +98,7 @@ NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021
 NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-02-25T17:01:13Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-02-05T08:35:12Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-02-06T18:39:53Z
-SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-02-06T16:47:44Z
+SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-02-27T18:39:39Z
 SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-16T13:20:55Z
 SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-02-25T16:48:51Z
 SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-02-25T17:14:01Z
