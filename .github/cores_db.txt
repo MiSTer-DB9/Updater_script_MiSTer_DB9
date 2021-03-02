@@ -1,7 +1,7 @@
 AliceMC10_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AliceMC10_MiSTer|master|2021-02-28T22:54:35Z
 Amstrad-PCW_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad-PCW_MiSTer|master|2021-02-28T22:54:26Z
 Amstrad_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad_MiSTer|master|2021-02-28T22:48:14Z
-Apple-II_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Apple-II_MiSTer|master|2021-02-28T22:52:40Z
+Apple-II_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Apple-II_MiSTer|master|2021-03-02T14:40:30Z
 Aquarius_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Aquarius_MISTer|master|2021-02-28T22:52:46Z
 Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer|master|2021-02-28T22:45:56Z
 Arcade-AsteroidsDeluxe_Mister|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister|master|2021-02-28T22:50:37Z
@@ -105,9 +105,9 @@ SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-02-
 TI-99_4A_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TI-99_4A_MiSTer|master|2021-02-28T22:53:38Z
 TomyScramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TomyScramble_MiSTer|master|2021-02-28T22:54:31Z
 TRS-80_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TRS-80_MiSTer|master|2021-02-28T22:53:13Z
-TSConf_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TSConf_MiSTer|master|2021-02-28T22:50:18Z
+TSConf_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TSConf_MiSTer|master|2021-03-02T14:41:50Z
 TurboGrafx16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TurboGrafx16_MiSTer|master|2021-02-28T22:54:06Z
-Vector-06C_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vector-06C_MiSTer|master|2021-02-28T22:53:42Z
+Vector-06C_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vector-06C_MiSTer|master|2021-03-02T14:42:10Z
 Vectrex_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vectrex_MiSTer|master|2021-02-28T22:50:03Z
 VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-02-28T22:53:07Z
 ZX-Spectrum_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer|master|2021-02-28T22:48:36Z
