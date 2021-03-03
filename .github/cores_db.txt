@@ -2,7 +2,7 @@ AliceMC10_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AliceMC10_MiSTer|maste
 Amstrad-PCW_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad-PCW_MiSTer|master|2021-02-28T22:54:26Z
 Amstrad_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad_MiSTer|master|2021-02-28T22:48:14Z
 Apple-II_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Apple-II_MiSTer|master|2021-03-02T14:40:30Z
-Aquarius_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Aquarius_MISTer|master|2021-02-28T22:52:46Z
+Aquarius_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Aquarius_MISTer|master|2021-03-03T12:44:00Z
 Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer|master|2021-02-28T22:45:56Z
 Arcade-AsteroidsDeluxe_Mister|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister|master|2021-02-28T22:50:37Z
 Arcade-Asteroids_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer|master|2021-02-28T22:50:34Z
@@ -86,7 +86,7 @@ FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|mas
 Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-02-28T22:49:08Z
 GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-02-28T22:49:13Z
 Genesis_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Genesis_MiSTer|master|2021-02-28T22:49:36Z
-Jupiter_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Jupiter_MiSTer|master|2021-02-28T22:53:18Z
+Jupiter_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Jupiter_MiSTer|master|2021-03-03T12:43:18Z
 Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|2021-02-28T22:54:23Z
 Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2021-03-02T14:22:04Z
 MegaCD_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MegaCD_MiSTer|master|2021-02-28T22:49:54Z
@@ -96,7 +96,7 @@ MiSTer-Arcade-Gyruss|MiSTer-DB9|https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyru
 MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-02-28T22:48:27Z
 NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-02-28T22:49:04Z
 NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-02-28T22:49:21Z
-Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-02-28T22:48:30Z
+Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-03-03T12:39:09Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-02-28T22:53:35Z
 SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-02-28T22:53:28Z
 SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-16T13:20:55Z
