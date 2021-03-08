@@ -78,8 +78,8 @@ Atari800_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari800_MiSTer|master|
 AtariST_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AtariST_MiSTer|master|2021-03-06T12:23:38Z
 AY-3-8500-MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AY-3-8500-MiSTer|master|2021-03-06T12:25:45Z
 BBCMicro_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/BBCMicro_MiSTer|master|2021-03-06T12:25:14Z
-C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-03-06T12:25:17Z
-C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-03-06T12:21:43Z
+C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-03-08T12:51:40Z
+C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-03-08T12:50:03Z
 ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer|master|2021-03-06T12:22:07Z
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-03-06T12:26:43Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-03-06T12:25:53Z
@@ -95,7 +95,7 @@ Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|M
 MiSTer-Arcade-Gyruss|MiSTer-DB9|https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss|master|2021-03-06T12:20:10Z
 MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-03-06T12:21:46Z
 NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-03-06T12:22:14Z
-NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-03-06T12:22:30Z
+NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-03-08T12:54:22Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-03-06T12:21:49Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-03-06T12:25:31Z
 SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-03-06T12:25:29Z
@@ -109,6 +109,6 @@ TSConf_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TSConf_MiSTer|master|2021
 TurboGrafx16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TurboGrafx16_MiSTer|master|2021-03-06T12:26:06Z
 Vector-06C_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vector-06C_MiSTer|master|2021-03-06T12:25:38Z
 Vectrex_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vectrex_MiSTer|master|2021-03-06T12:23:09Z
-VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-03-06T12:25:20Z
-ZX-Spectrum_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer|master|2021-03-06T12:21:55Z
+VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-03-08T12:45:54Z
+ZX-Spectrum_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer|master|2021-03-08T12:49:30Z
 ZX81_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX81_MiSTer|master|2021-03-06T12:25:40Z 
