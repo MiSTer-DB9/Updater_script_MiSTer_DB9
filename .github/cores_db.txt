@@ -67,7 +67,7 @@ Arcade-Tecmo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Tecmo_MiSTer
 Arcade-TimePilot_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-TimePilot_MiSTer|master|2021-03-06T12:24:59Z
 Arcade-TraverseUSA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-TraverseUSA_MiSTer|master|2021-03-06T12:25:02Z
 Arcade-Ultratank_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Ultratank_MiSTer|master|2021-03-06T12:21:17Z
-Arcade-Xevious_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Xevious_MiSTer|master|2021-03-06T12:21:21Z
+Arcade-Xevious_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Xevious_MiSTer|master|2021-03-17T08:38:58Z
 Arcade-Zaxxon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Zaxxon_MiSTer|master|2021-03-06T12:23:47Z
 Arcade-ZigZag_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ZigZag_MiSTer|master|2021-03-06T12:25:04Z
 Archie_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Archie_MiSTer|master|2021-03-06T12:21:25Z
