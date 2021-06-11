@@ -47,7 +47,7 @@ Arcade-Phoenix_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Phoenix_Mi
 Arcade-Pleiads_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pleiads_MiSTer|master|2021-03-24T14:28:35Z
 Arcade-Pong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pong_MiSTer|master|2021-06-10T14:23:20Z
 Arcade-Pooyan_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pooyan_MiSTer|master|2021-03-06T12:24:48Z
-Arcade-Popeye_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Popeye_MiSTer|master|2021-03-06T12:20:48Z
+Arcade-Popeye_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Popeye_MiSTer|master|2021-06-11T14:29:11Z
 Arcade-RallyX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RallyX_MiSTer|master|2021-03-06T12:20:50Z
 Arcade-RiverPatrol_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RiverPatrol_MiSTer|master|2021-06-10T14:23:28Z
 Arcade-Robotron_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Robotron_MiSTer|master|2021-03-06T12:20:53Z
