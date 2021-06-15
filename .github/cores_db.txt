@@ -18,7 +18,7 @@ Arcade-CanyonBomber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Canyo
 Arcade-Centipede_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Centipede_MiSTer|master|2021-06-10T14:39:40Z
 Arcade-ComputerSpace_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ComputerSpace_MiSTer|master|2021-06-10T14:22:51Z
 Arcade-CrazyBalloon_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyBalloon_MiSTer|master|2021-06-10T14:45:48Z
-Arcade-CrazyClimber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyClimber_MiSTer|master|2021-06-10T14:37:42Z
+Arcade-CrazyClimber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyClimber_MiSTer|master|2021-06-15T22:34:00Z
 Arcade-CrazyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyKong_MiSTer|master|2021-06-10T14:22:54Z
 Arcade-Defender_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Defender_MiSTer|master|2021-03-06T12:19:42Z
 Arcade-DigDug_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DigDug_MiSTer|master|2021-03-06T12:23:43Z
