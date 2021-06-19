@@ -21,7 +21,7 @@
 # https://github.com/MiSTer-DB9/Updater_script_MiSTer_DB9
 
 
-
+# Version 4.0.15 - 2021-06-14 - Handle HTML codes for square brackets and ampersand
 # Version 4.0.14 - 2021-03-23 - Fixed a bug in checkAdditionalRepository.
 # Version 4.0.13 - 2021-03-22 - Added XOW scripts to ADDITIONAL_REPOSITORIES; added main branch detection to checkAdditionalRepository.
 # Version 4.0.12 - 2021-03-05 - Updated checkAdditionalRepository in order to reflect a change in GitHub HTML code.
@@ -218,7 +218,7 @@ TO_BE_DELETED_EXTENSION="to_be_deleted"
 
 #========= CODE STARTS HERE =========
 
-UPDATER_VERSION="4.0.14"
+UPDATER_VERSION="4.0.15"
 echo "MiSTer Updater version ${UPDATER_VERSION}"
 echo ""
 echo "Cores with ENCC: \"Extended Native Controller Compatibility\""
@@ -407,6 +407,10 @@ then
 	mv "${CORE_CATEGORY_PATHS["arcade-cores"]}/mra_backup/"*.mra "${CORE_CATEGORY_PATHS["arcade-cores"]}/" > /dev/null 2>&1
 	find "${CORE_CATEGORY_PATHS["arcade-cores"]}" -maxdepth 1 -type f -name '*.mra' -size +165000c -size -166000c -delete
 	rm "${CORE_CATEGORY_PATHS["arcade-cores"]}/Arkanoid (unl.lives%2C slower).mra" > /dev/null 2>&1
+	find "${CORE_CATEGORY_PATHS["arcade-cores"]}" -maxdepth 1 -type f -name '*%5B*.mra' -delete
+	find "${CORE_CATEGORY_PATHS["arcade-cores"]}" -maxdepth 1 -type f -name '*%5D*.mra' -delete
+	find "${CORE_CATEGORY_PATHS["arcade-cores"]}" -maxdepth 1 -type f -name '*%26*.mra' -delete
+	find "${CORE_CATEGORY_PATHS["arcade-cores"]}" -maxdepth 1 -type f -name '*  *.mra' -delete
 elif [ "${MAME_ARCADE_ROMS}" == "false" ]
 then
 	mv "${CORE_CATEGORY_PATHS["arcade-cores"]}/cores/"*.rbf "${CORE_CATEGORY_PATHS["arcade-cores"]}/" > /dev/null 2>&1
@@ -1005,11 +1009,11 @@ function checkAdditionalRepository {
 			then
 				#ADDITIONAL_FILE_NAME=$(echo "$ADDITIONAL_FILE_URL" | sed 's/.*\///g' | sed 's/%20/ /g; s/&#39;/'\''/g')
 				#ADDITIONAL_FILE_NAME=$(echo "$ADDITIONAL_FILE_URL" | sed 's/.*\///g' | sed 's/%20/ /g')
-				ADDITIONAL_FILE_NAME=$(echo "$ADDITIONAL_FILE_URL" | sed 's/.*\///g; s/%20/ /g; s/%2C/,/g')
+				ADDITIONAL_FILE_NAME=$(echo "$ADDITIONAL_FILE_URL" | sed 's/.*\///g; s/%20/ /g; s/%2C/,/g; s/%5B/[/g; s/%5D/]/g; s/%26/\&/g; s/   */ /g')
 				ADDITIONAL_ONLINE_FILE_DATETIME=${ADDITIONAL_FILE_DATETIMES[$CONTENT_INDEX]}
-				if [ -f "$CURRENT_DIR/$ADDITIONAL_FILE_NAME" ]
+				if [ -f "$CURRENT_DIR/${ADDITIONAL_FILE_NAME}" ]
 				then
-					ADDITIONAL_LOCAL_FILE_DATETIME=$(date -d "$(stat -c %y "$CURRENT_DIR/$ADDITIONAL_FILE_NAME" 2>/dev/null)" -u +"%Y-%m-%dT%H:%M:%SZ")
+					ADDITIONAL_LOCAL_FILE_DATETIME=$(date -d "$(stat -c %y "$CURRENT_DIR/${ADDITIONAL_FILE_NAME}" 2>/dev/null)" -u +"%Y-%m-%dT%H:%M:%SZ")
 				else
 					ADDITIONAL_LOCAL_FILE_DATETIME=""
 				fi
@@ -1023,10 +1027,10 @@ function checkAdditionalRepository {
 				
 				if [ "$ADDITIONAL_LOCAL_FILE_DATETIME" == "" ] || [[ "$ADDITIONAL_ONLINE_FILE_DATETIME" > "$ADDITIONAL_LOCAL_FILE_DATETIME" ]]
 				then
-					echo "Downloading $ADDITIONAL_FILE_NAME"
+					echo "Downloading ${ADDITIONAL_FILE_NAME}"
 					[ "${SSH_CLIENT}" != "" ] && echo "URL: https://github.com$ADDITIONAL_FILE_URL?raw=true"
 					mv "${CURRENT_DIR}/${ADDITIONAL_FILE_NAME}" "${CURRENT_DIR}/${ADDITIONAL_FILE_NAME}.${TO_BE_DELETED_EXTENSION}" > /dev/null 2>&1
-					if curl $CURL_RETRY $SSL_SECURITY_OPTION $([ "${PARALLEL_UPDATE}" == "true" ] && echo "-sS") -L "https://github.com$ADDITIONAL_FILE_URL?raw=true" -o "$CURRENT_DIR/$ADDITIONAL_FILE_NAME"
+					if curl $CURL_RETRY $SSL_SECURITY_OPTION $([ "${PARALLEL_UPDATE}" == "true" ] && echo "-sS") -L "https://github.com$ADDITIONAL_FILE_URL?raw=true" -o "$CURRENT_DIR/${ADDITIONAL_FILE_NAME}"
 					then
 						rm "${CURRENT_DIR}/${ADDITIONAL_FILE_NAME}.${TO_BE_DELETED_EXTENSION}" > /dev/null 2>&1
 						if [[ "${ADDITIONAL_FILE_NAME}" =~ \.mra ]]
