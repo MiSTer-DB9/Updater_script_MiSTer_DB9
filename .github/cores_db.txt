@@ -80,7 +80,7 @@ C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-04-27
 ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer|master|2021-03-06T12:22:07Z
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-03-06T12:26:43Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-03-06T12:25:53Z
-Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-06-20T11:30:16Z
+Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-06-20T11:58:10Z
 GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-03-06T12:22:23Z
 Genesis_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Genesis_MiSTer|master|2021-03-06T12:22:45Z
 Jupiter_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Jupiter_MiSTer|master|2021-03-06T12:25:25Z
