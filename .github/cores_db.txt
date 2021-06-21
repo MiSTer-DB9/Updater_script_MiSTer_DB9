@@ -88,7 +88,7 @@ Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|
 Main_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Main_MiSTer|master|2021-03-08T10:24:50Z
 MegaCD_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MegaCD_MiSTer|master|2021-03-06T12:23:03Z
 Menu_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Menu_MiSTer|master|2021-03-15T16:43:25Z
-Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2021-06-21T12:45:11Z
+Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2021-06-21T13:18:49Z
 MiSTer-Arcade-Gyruss|MiSTer-DB9|https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss|master|2021-03-06T12:20:10Z
 MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-03-06T12:21:46Z
 NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-03-06T12:22:14Z
