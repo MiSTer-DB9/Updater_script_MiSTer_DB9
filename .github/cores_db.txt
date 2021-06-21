@@ -92,13 +92,13 @@ Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|M
 MiSTer-Arcade-Gyruss|MiSTer-DB9|https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss|master|2021-03-06T12:20:10Z
 MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-03-06T12:21:46Z
 NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-03-06T12:22:14Z
-NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-06-21T11:39:17Z
+NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-06-21T12:17:24Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-03-06T12:21:49Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-03-06T12:25:31Z
 SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-03-06T12:25:29Z
 SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-16T13:20:55Z
 SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-03-06T12:22:50Z
-SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-03-06T12:22:41Z
+SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-06-21T11:57:28Z
 TI-99_4A_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TI-99_4A_MiSTer|master|2021-03-06T12:25:35Z
 TomyScramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TomyScramble_MiSTer|master|2021-03-06T12:26:47Z
 TRS-80_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TRS-80_MiSTer|master|2021-03-06T12:25:23Z
