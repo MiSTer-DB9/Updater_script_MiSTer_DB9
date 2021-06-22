@@ -81,7 +81,7 @@ ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-03-06T12:26:43Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-03-06T12:25:53Z
 Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-06-20T11:58:10Z
-GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-06-22T12:33:59Z
+GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-06-22T13:27:24Z
 Genesis_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Genesis_MiSTer|master|2021-03-06T12:22:45Z
 Jupiter_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Jupiter_MiSTer|master|2021-03-06T12:25:25Z
 Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|2021-03-06T12:26:35Z
@@ -94,7 +94,7 @@ MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-03-06
 NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-03-06T12:22:14Z
 NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-06-21T12:17:24Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-06-22T12:34:23Z
-QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-06-22T12:54:37Z
+QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-06-22T13:13:47Z
 SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-03-06T12:25:29Z
 SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-16T13:20:55Z
 SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-03-06T12:22:50Z
@@ -105,7 +105,7 @@ TRS-80_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TRS-80_MiSTer|master|2021
 TSConf_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TSConf_MiSTer|master|2021-03-06T12:23:28Z
 TurboGrafx16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TurboGrafx16_MiSTer|master|2021-03-06T12:26:06Z
 Vector-06C_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vector-06C_MiSTer|master|2021-03-06T12:25:38Z
-Vectrex_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vectrex_MiSTer|master|2021-06-22T12:59:26Z
+Vectrex_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Vectrex_MiSTer|master|2021-06-22T13:19:03Z
 VIC20_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/VIC20_MiSTer|master|2021-03-08T12:45:54Z
-ZX-Spectrum_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer|master|2021-03-08T12:49:30Z
-ZX81_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX81_MiSTer|master|2021-06-22T13:02:59Z 
+ZX-Spectrum_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer|master|2021-06-22T13:22:33Z
+ZX81_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ZX81_MiSTer|master|2021-06-22T13:18:09Z 
