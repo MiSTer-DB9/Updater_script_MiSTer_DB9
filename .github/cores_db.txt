@@ -3,7 +3,7 @@ Amstrad-PCW_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad-PCW_MiSTer|m
 Amstrad_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Amstrad_MiSTer|master|2021-03-06T12:21:35Z
 Apple-II_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Apple-II_MiSTer|master|2021-03-06T12:25:07Z
 Aquarius_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Aquarius_MISTer|master|2021-03-06T12:25:10Z
-Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer|master|2021-06-10T14:16:28Z
+Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer|master|2021-06-23T12:01:26Z
 Arcade-AsteroidsDeluxe_Mister|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister|master|2021-06-23T07:57:26Z
 Arcade-Asteroids_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer|master|2021-03-06T12:23:51Z
 Arcade-Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Astrocade_MiSTer|master|2021-06-10T14:37:27Z
@@ -45,7 +45,6 @@ Arcade-Pacman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pacman_MiST
 Arcade-Pengo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pengo_MiSTer|master|2021-06-21T16:21:18Z
 Arcade-Phoenix_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Phoenix_MiSTer|master|2021-06-10T14:23:17Z
 Arcade-Pleiads_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pleiads_MiSTer|master|2021-06-20T17:26:29Z
-Arcade-Pong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pong_MiSTer|master|2021-06-10T14:23:20Z
 Arcade-Pooyan_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Pooyan_MiSTer|master|2021-06-21T07:28:03Z
 Arcade-Popeye_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Popeye_MiSTer|master|2021-06-15T22:15:12Z
 Arcade-RallyX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-RallyX_MiSTer|master|2021-06-21T09:10:18Z
@@ -59,7 +58,7 @@ Arcade-SolomonsKey_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Solomo
 Arcade-SpaceInvaders_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SpaceInvaders_MiSTer|master|2021-06-20T17:38:56Z
 Arcade-Sprint1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Sprint1_MiSTer|master|2021-06-09T18:49:16Z
 Arcade-Sprint2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Sprint2_MiSTer|master|2021-06-09T18:35:32Z
-Arcade-SuperBreakout_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SuperBreakout_MiSTer|master|2021-06-09T18:39:54Z
+Arcade-SuperBreakout_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SuperBreakout_MiSTer|master|2021-06-23T12:07:08Z
 Arcade-Tecmo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Tecmo_MiSTer|master|2021-06-23T08:33:33Z
 Arcade-TimePilot_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-TimePilot_MiSTer|master|2021-06-23T08:40:41Z
 Arcade-TraverseUSA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-TraverseUSA_MiSTer|master|2021-06-15T20:21:56Z
@@ -71,7 +70,7 @@ Archie_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Archie_MiSTer|master|2021
 Arduboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arduboy_MiSTer|master|2021-03-06T12:25:49Z
 Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Astrocade_MiSTer|master|2021-06-22T12:05:22Z
 Atari2600_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari2600_MiSTer|master|2021-03-06T12:22:01Z
-Atari800_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari800_MiSTer|master|2021-06-23T11:24:03Z
+Atari800_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Atari800_MiSTer|master|2021-06-23T11:57:03Z
 AtariST_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AtariST_MiSTer|master|2021-06-22T08:15:53Z
 AY-3-8500-MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AY-3-8500-MiSTer|master|2021-03-06T12:25:45Z
 BBCMicro_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/BBCMicro_MiSTer|master|2021-06-22T12:23:13Z
