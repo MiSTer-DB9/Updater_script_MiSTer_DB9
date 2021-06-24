@@ -75,7 +75,7 @@ AtariST_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AtariST_MiSTer|master|20
 AY-3-8500-MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/AY-3-8500-MiSTer|master|2021-03-06T12:25:45Z
 BBCMicro_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/BBCMicro_MiSTer|master|2021-06-22T12:23:13Z
 C16_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C16_MiSTer|master|2021-03-08T12:51:40Z
-C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-04-27T00:55:41Z
+C64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/C64_MiSTer|master|2021-06-24T07:09:03Z
 ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer|master|2021-03-06T12:22:07Z
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-03-06T12:26:43Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-03-06T12:25:53Z
@@ -90,7 +90,7 @@ Menu_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Menu_MiSTer|master|2021-03-
 Minimig-AGA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer|MiSTer|2021-06-21T13:18:49Z
 MiSTer-Arcade-Gyruss|MiSTer-DB9|https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss|master|2021-03-06T12:20:10Z
 MSX_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/MSX_MiSTer|master|2021-03-06T12:21:46Z
-NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-06-24T06:34:27Z
+NeoGeo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NeoGeo_MiSTer|master|2021-06-24T07:00:13Z
 NES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/NES_MiSTer|master|2021-06-21T12:17:24Z
 Oric_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Oric_MiSTer|master|2021-06-22T12:34:23Z
 QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-06-22T13:13:47Z
