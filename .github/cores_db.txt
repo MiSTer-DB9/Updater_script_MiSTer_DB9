@@ -22,7 +22,7 @@ Arcade-CrazyClimber_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Crazy
 Arcade-CrazyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-CrazyKong_MiSTer|master|2021-06-23T08:06:11Z
 Arcade-Defender_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Defender_MiSTer|master|2021-06-22T09:58:09Z
 Arcade-DigDug_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DigDug_MiSTer|master|2021-06-22T09:43:44Z
-Arcade-Dominos_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Dominos_MiSTer|master|2021-06-23T07:34:59Z
+Arcade-Dominos_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Dominos_MiSTer|master|2021-06-25T07:10:24Z
 Arcade-DonkeyKong_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-DonkeyKong_MiSTer|master|2021-06-21T09:53:29Z
 Arcade-Druaga_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Druaga_MiSTer|master|2021-06-21T08:35:35Z
 Arcade-FoodFight_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-FoodFight_MiSTer|master|2021-06-13T18:42:03Z
@@ -59,7 +59,7 @@ Arcade-SpaceInvaders_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Spac
 Arcade-Sprint1_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Sprint1_MiSTer|master|2021-06-09T18:49:16Z
 Arcade-Sprint2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Sprint2_MiSTer|master|2021-06-09T18:35:32Z
 Arcade-SuperBreakout_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-SuperBreakout_MiSTer|master|2021-06-23T12:07:08Z
-Arcade-Tecmo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Tecmo_MiSTer|master|2021-06-24T05:48:34Z
+Arcade-Tecmo_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Tecmo_MiSTer|master|2021-06-25T07:14:31Z
 Arcade-TimePilot_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-TimePilot_MiSTer|master|2021-06-23T08:40:41Z
 Arcade-TraverseUSA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-TraverseUSA_MiSTer|master|2021-06-15T20:21:56Z
 Arcade-Ultratank_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Ultratank_MiSTer|master|2021-06-09T18:47:33Z
