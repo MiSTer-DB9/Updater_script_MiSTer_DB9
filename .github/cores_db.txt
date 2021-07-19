@@ -80,7 +80,7 @@ ColecoVision_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/ColecoVision_MiSTer
 EpochGalaxy2_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer|master|2021-07-09T18:25:16Z
 FlappyBird_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/FlappyBird_MiSTer|master|2021-07-09T18:24:39Z
 Gameboy_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Gameboy_MiSTer|master|2021-07-09T17:07:46Z
-GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-07-09T17:07:54Z
+GBA_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/GBA_MiSTer|master|2021-07-19T01:24:49Z
 Genesis_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Genesis_MiSTer|master|2021-07-09T17:08:17Z
 Jupiter_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Jupiter_MiSTer|master|2021-07-09T18:24:01Z
 Laser310_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Laser310_MiSTer|master|2021-07-09T18:25:10Z
@@ -97,7 +97,7 @@ QL_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/QL_MiSTer|master|2021-07-09T1
 SAM-Coupe_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer|master|2021-07-09T18:24:05Z
 SD-Installer-Win64_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SD-Installer-Win64_MiSTer|master|2021-01-16T13:20:55Z
 SMS_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SMS_MiSTer|master|2021-07-09T17:08:22Z
-SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-07-09T17:08:11Z
+SNES_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/SNES_MiSTer|master|2021-07-19T01:13:30Z
 TI-99_4A_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TI-99_4A_MiSTer|master|2021-07-09T18:24:17Z
 TomyScramble_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TomyScramble_MiSTer|master|2021-07-09T18:25:20Z
 TRS-80_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/TRS-80_MiSTer|master|2021-07-09T18:23:57Z
