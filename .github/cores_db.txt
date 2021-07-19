@@ -6,7 +6,7 @@ Aquarius_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Aquarius_MISTer|master|
 Arcade-Arkanoid_MISTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer|master|2021-07-09T17:04:17Z
 Arcade-AsteroidsDeluxe_Mister|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister|master|2021-07-09T17:09:08Z
 Arcade-Asteroids_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer|master|2021-07-09T17:09:04Z
-Arcade-Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Astrocade_MiSTer|master|2021-07-09T17:08:47Z
+Arcade-Astrocade_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Astrocade_MiSTer|master|2021-07-19T00:56:09Z
 Arcade-ATetris_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-ATetris_MiSTer|master|2021-07-09T17:04:20Z
 Arcade-Bagman_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Bagman_MiSTer|master|2021-07-09T17:09:11Z
 Arcade-Berzerk_MiSTer|MiSTer-DB9|https://github.com/MiSTer-DB9/Arcade-Berzerk_MiSTer|master|2021-07-09T17:04:29Z
